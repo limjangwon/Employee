@@ -19,7 +19,7 @@ update member set register_date ='2015/11/11' , password ='1234' where id ='2';
 
 alter table member add(aa varchar(255));
 
-delete from member where id='2' ;
+delete from member where id='2';
 
 select * from member;
 select * from board;
