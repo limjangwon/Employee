@@ -43,3 +43,24 @@ select id,
       population
   from city
  where countrycode ='KOR'
+ 
+ --
+ -- Country
+ --
+ 
+select * from country where code ='KOR'
+ 
+select * from city
+ 
+select. ci.id,
+		ci.countrycode,
+		ci.name,
+		co.code,
+		co.name,
+		co.headofstate
+   from city ci inner join country co
+     on ci.countrycode = co.code
+     where co.code = 'USA'
+
+ 
+ 

@@ -1,7 +1,6 @@
 package com.hybrid.model;
 
 import java.util.Date;
-
 import com.hybrid.exception.PasswordNotMatchingException;
 
 /*
@@ -15,9 +14,9 @@ import com.hybrid.exception.PasswordNotMatchingException;
 public class City {
 	private int id;
 	private String name;
-	private String countertCode;
+	private String countryCode;
 	private String district;
-	private Integer population;
+	private int population;
 	
 	public int getId() {
 		return id;
@@ -32,10 +31,10 @@ public class City {
 		this.name = name;
 	}
 	public String getCountertCode() {
-		return countertCode;
+		return countryCode;
 	}
 	public void setCountertCode(String countertCode) {
-		this.countertCode = countertCode;
+		this.countryCode = countertCode;
 	}
 	public String getDistrict() {
 		return district;
@@ -43,10 +42,10 @@ public class City {
 	public void setDistrict(String district) {
 		this.district = district;
 	}
-	public Integer getPopulation() {
+	public int getPopulation() {
 		return population;
 	}
-	public void setPopulation(Integer population) {
+	public void setPopulation(int population) {
 		this.population = population;
 	}
 	
