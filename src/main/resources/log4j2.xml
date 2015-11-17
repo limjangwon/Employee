@@ -7,16 +7,16 @@
 			<PatternLayout pattern="%d %5p [%c] %m%n"/>
 		</Console>
 		
-		<file name="MyFile" target="app.log">
+		<File name="MyFile"  fileName="app.log">
 			<PatternLayout pattern="%d %5p [%c] %m%n"/>
-		</file>
+		</File>
 	</Appenders>
  
 	<!-- Logger 설정 -->
 	<Loggers>
 		<Root level="INFO">
 			<AppenderRef ref="console"/>
-			<AppenderRef ref="Myfile"/>
+			<AppenderRef ref="MyFile"/>
 		</Root>
 	</Loggers>
  
