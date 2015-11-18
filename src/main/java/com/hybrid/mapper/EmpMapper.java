@@ -13,5 +13,7 @@ public interface EmpMapper {
 	List<Emp> selectAllWithDept();
 	Emp selectByEmpnoWithDept();
 	
+	int insert(Emp emp);
+	
 	
 }

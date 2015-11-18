@@ -170,3 +170,535 @@
 2015-11-16 17:27:04,699  INFO [org.springframework.jdbc.support.SQLErrorCodesFactory] SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase, Hana]
 2015-11-16 17:29:20,785  INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [spring/beans_oracle.xml]
 2015-11-16 17:29:20,849  INFO [org.springframework.context.support.GenericXmlApplicationContext] Refreshing org.springframework.context.support.GenericXmlApplicationContext@2a17b7b6: startup date [Mon Nov 16 17:29:20 KST 2015]; root of context hierarchy
+2015-11-17 11:27:11,163  INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [spring/beans_oracle.xml]
+2015-11-17 11:27:11,230  INFO [org.springframework.context.support.GenericXmlApplicationContext] Refreshing org.springframework.context.support.GenericXmlApplicationContext@1e6d1014: startup date [Tue Nov 17 11:27:11 KST 2015]; root of context hierarchy
+2015-11-17 11:27:11,952  INFO [com.hybrid.dao.DeptDaoTest] dept size = 4
+2015-11-17 11:27:11,975  INFO [com.hybrid.dao.DeptDaoTest] dept size = 4
+2015-11-17 11:32:31,187  INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [spring/beans_oracle.xml]
+2015-11-17 11:32:31,256  INFO [org.springframework.context.support.GenericXmlApplicationContext] Refreshing org.springframework.context.support.GenericXmlApplicationContext@1e6d1014: startup date [Tue Nov 17 11:32:31 KST 2015]; root of context hierarchy
+2015-11-17 11:32:31,483  INFO [com.hybrid.dao.DeptDao] ### selectAll() START
+2015-11-17 11:32:31,918  INFO [com.hybrid.dao.DeptDao] ### selectAll() END
+2015-11-17 11:32:31,918  INFO [com.hybrid.dao.DeptDaoTest] dept size = 4
+2015-11-17 11:32:31,918  INFO [com.hybrid.dao.DeptDao] ### selectAllWithEmps() START
+2015-11-17 11:32:31,923  INFO [com.hybrid.dao.DeptDao] ### selectAllWithEmps() END
+2015-11-17 11:32:31,923  INFO [com.hybrid.dao.DeptDaoTest] dept size = 4
+2015-11-17 11:46:59,283  INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [spring/beans_oracle.xml]
+2015-11-17 11:46:59,349  INFO [org.springframework.context.support.GenericXmlApplicationContext] Refreshing org.springframework.context.support.GenericXmlApplicationContext@1e6d1014: startup date [Tue Nov 17 11:46:59 KST 2015]; root of context hierarchy
+2015-11-17 11:47:00,010  INFO [com.hybrid.dao.DeptDaoTest] dept size = 4
+2015-11-17 11:47:00,015  INFO [com.hybrid.dao.DeptDaoTest] dept size = 4
+2015-11-17 11:59:26,022  INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [spring/beans_oracle.xml]
+2015-11-17 11:59:26,148  INFO [org.springframework.context.support.GenericXmlApplicationContext] Refreshing org.springframework.context.support.GenericXmlApplicationContext@1e6d1014: startup date [Tue Nov 17 11:59:26 KST 2015]; root of context hierarchy
+2015-11-17 11:59:26,642  INFO [com.hybrid.aspect.LogDaoAspect] ### START
+2015-11-17 11:59:27,076  INFO [com.hybrid.aspect.LogDaoAspect] ### END
+2015-11-17 11:59:27,076  INFO [com.hybrid.dao.DeptDaoTest] dept size = 4
+2015-11-17 11:59:27,076  INFO [com.hybrid.aspect.LogDaoAspect] ### START
+2015-11-17 11:59:27,081  INFO [com.hybrid.aspect.LogDaoAspect] ### END
+2015-11-17 11:59:27,081  INFO [com.hybrid.dao.DeptDaoTest] dept size = 4
+2015-11-17 12:00:17,354  INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [spring/beans_oracle.xml]
+2015-11-17 12:00:17,436  INFO [org.springframework.context.support.GenericXmlApplicationContext] Refreshing org.springframework.context.support.GenericXmlApplicationContext@1e6d1014: startup date [Tue Nov 17 12:00:17 KST 2015]; root of context hierarchy
+2015-11-17 12:00:17,877  INFO [com.hybrid.aspect.LogDaoAspect] ### START
+2015-11-17 12:00:18,300  INFO [com.hybrid.aspect.LogDaoAspect] ### END
+2015-11-17 12:00:18,300  INFO [com.hybrid.dao.DeptDaoTest] dept size = 4
+2015-11-17 12:00:18,300  INFO [com.hybrid.aspect.LogDaoAspect] ### START
+2015-11-17 12:00:18,305  INFO [com.hybrid.aspect.LogDaoAspect] ### END
+2015-11-17 12:00:18,305  INFO [com.hybrid.dao.DeptDaoTest] dept size = 4
+2015-11-17 12:00:27,208  INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [spring/beans_oracle.xml]
+2015-11-17 12:00:27,293  INFO [org.springframework.context.support.GenericXmlApplicationContext] Refreshing org.springframework.context.support.GenericXmlApplicationContext@1e6d1014: startup date [Tue Nov 17 12:00:27 KST 2015]; root of context hierarchy
+2015-11-17 12:00:27,748  INFO [com.hybrid.aspect.LogDaoAspect] ### START
+2015-11-17 12:00:28,191  INFO [com.hybrid.aspect.LogDaoAspect] ### END
+2015-11-17 12:00:28,191  INFO [com.hybrid.dao.DeptDaoTest] dept size = 4
+2015-11-17 12:00:28,191  INFO [com.hybrid.aspect.LogDaoAspect] ### START
+2015-11-17 12:00:28,197  INFO [com.hybrid.aspect.LogDaoAspect] ### END
+2015-11-17 12:00:28,197  INFO [com.hybrid.dao.DeptDaoTest] dept size = 4
+2015-11-17 12:00:28,197  INFO [com.hybrid.aspect.LogDaoAspect] ### START
+2015-11-17 12:00:28,209  INFO [com.hybrid.aspect.LogDaoAspect] ### END
+2015-11-17 12:21:05,301  INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [spring/beans_oracle.xml]
+2015-11-17 12:21:05,390  INFO [org.springframework.context.support.GenericXmlApplicationContext] Refreshing org.springframework.context.support.GenericXmlApplicationContext@1e6d1014: startup date [Tue Nov 17 12:21:05 KST 2015]; root of context hierarchy
+2015-11-17 12:21:05,845  INFO [com.hybrid.aspect.LogDaoAspect] ### START
+2015-11-17 12:21:06,301  INFO [com.hybrid.dao.DeptDao] Dept size = 4
+2015-11-17 12:21:06,301  INFO [com.hybrid.aspect.LogDaoAspect] ### END
+2015-11-17 12:21:06,301  INFO [com.hybrid.dao.DeptDaoTest] dept size = 4
+2015-11-17 12:21:06,302  INFO [com.hybrid.aspect.LogDaoAspect] ### START
+2015-11-17 12:21:06,307  INFO [com.hybrid.dao.DeptDao] Dept size = 4
+2015-11-17 12:21:06,307  INFO [com.hybrid.aspect.LogDaoAspect] ### END
+2015-11-17 12:21:06,307  INFO [com.hybrid.dao.DeptDaoTest] dept size = 4
+2015-11-17 12:21:06,307  INFO [com.hybrid.aspect.LogDaoAspect] ### START
+2015-11-17 12:21:06,308  INFO [com.hybrid.aspect.LogDaoAspect] ### END
+2015-11-17 12:31:53,618  INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [spring/beans_oracle.xml]
+2015-11-17 12:31:53,702  INFO [org.springframework.context.support.GenericXmlApplicationContext] Refreshing org.springframework.context.support.GenericXmlApplicationContext@1e6d1014: startup date [Tue Nov 17 12:31:53 KST 2015]; root of context hierarchy
+2015-11-17 12:31:54,155  INFO [com.hybrid.dao.DeptDao] ### START
+2015-11-17 12:31:54,582  INFO [com.hybrid.dao.DeptDao] Dept size = 4
+2015-11-17 12:31:54,582  INFO [com.hybrid.dao.DeptDaoTest] dept size = 4
+2015-11-17 12:31:54,583  INFO [com.hybrid.dao.DeptDao] ### START
+2015-11-17 12:31:54,588  INFO [com.hybrid.dao.DeptDao] Dept size = 4
+2015-11-17 12:31:54,588  INFO [com.hybrid.dao.DeptDaoTest] dept size = 4
+2015-11-17 12:31:54,588  INFO [com.hybrid.dao.DeptDao] ### START
+2015-11-17 12:31:54,589  INFO [com.hybrid.dao.DeptDao] ### START
+2015-11-17 12:32:55,711  INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [spring/beans_oracle.xml]
+2015-11-17 12:32:55,797  INFO [org.springframework.context.support.GenericXmlApplicationContext] Refreshing org.springframework.context.support.GenericXmlApplicationContext@1e6d1014: startup date [Tue Nov 17 12:32:55 KST 2015]; root of context hierarchy
+2015-11-17 12:32:56,253  INFO [com.hybrid.dao.DeptDao] ### START
+2015-11-17 12:32:56,683  INFO [com.hybrid.dao.DeptDao] Dept size = 4
+2015-11-17 12:32:56,683  INFO [com.hybrid.dao.DeptDao] ### END
+2015-11-17 12:32:56,683  INFO [com.hybrid.dao.DeptDaoTest] dept size = 4
+2015-11-17 12:32:56,683  INFO [com.hybrid.dao.DeptDao] ### START
+2015-11-17 12:32:56,688  INFO [com.hybrid.dao.DeptDao] Dept size = 4
+2015-11-17 12:32:56,688  INFO [com.hybrid.dao.DeptDao] ### END
+2015-11-17 12:32:56,689  INFO [com.hybrid.dao.DeptDaoTest] dept size = 4
+2015-11-17 12:32:56,689  INFO [com.hybrid.dao.DeptDao] ### START
+2015-11-17 12:32:56,690  INFO [com.hybrid.dao.DeptDao] ### END
+2015-11-17 12:32:56,690  INFO [com.hybrid.dao.DeptDao] ### START
+2015-11-17 12:32:56,693  INFO [com.hybrid.dao.DeptDao] ### END
+2015-11-17 12:34:32,823  INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [spring/beans_oracle.xml]
+2015-11-17 12:34:32,910  INFO [org.springframework.context.support.GenericXmlApplicationContext] Refreshing org.springframework.context.support.GenericXmlApplicationContext@1e6d1014: startup date [Tue Nov 17 12:34:32 KST 2015]; root of context hierarchy
+2015-11-17 12:34:33,360  INFO [com.hybrid.dao.DeptDao] ###selectAllSTART
+2015-11-17 12:34:33,790  INFO [com.hybrid.dao.DeptDao] Dept size = 4
+2015-11-17 12:34:33,790  INFO [com.hybrid.dao.DeptDao] ### END
+2015-11-17 12:34:33,790  INFO [com.hybrid.dao.DeptDaoTest] dept size = 4
+2015-11-17 12:34:33,790  INFO [com.hybrid.dao.DeptDao] ###selectAllWithEmpsSTART
+2015-11-17 12:34:33,795  INFO [com.hybrid.dao.DeptDao] Dept size = 4
+2015-11-17 12:34:33,796  INFO [com.hybrid.dao.DeptDao] ### END
+2015-11-17 12:34:33,796  INFO [com.hybrid.dao.DeptDaoTest] dept size = 4
+2015-11-17 12:34:33,796  INFO [com.hybrid.dao.DeptDao] ###selectByDeptnoSTART
+2015-11-17 12:34:33,797  INFO [com.hybrid.dao.DeptDao] ### END
+2015-11-17 12:34:33,797  INFO [com.hybrid.dao.DeptDao] ###selectByDeptnoWithEmpsSTART
+2015-11-17 12:34:33,800  INFO [com.hybrid.dao.DeptDao] ### END
+2015-11-17 12:35:35,397  INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [spring/beans_oracle.xml]
+2015-11-17 12:35:35,480  INFO [org.springframework.context.support.GenericXmlApplicationContext] Refreshing org.springframework.context.support.GenericXmlApplicationContext@1e6d1014: startup date [Tue Nov 17 12:35:35 KST 2015]; root of context hierarchy
+2015-11-17 12:35:35,924  INFO [com.hybrid.dao.DeptDao] ###selectAllSTART
+2015-11-17 12:35:36,356  INFO [com.hybrid.dao.DeptDao] Dept size = 4
+2015-11-17 12:35:36,357  INFO [com.hybrid.dao.DeptDao] ###selectAllEND
+2015-11-17 12:35:36,357  INFO [com.hybrid.dao.DeptDaoTest] dept size = 4
+2015-11-17 12:35:36,357  INFO [com.hybrid.dao.DeptDao] ###selectAllWithEmpsSTART
+2015-11-17 12:35:36,363  INFO [com.hybrid.dao.DeptDao] Dept size = 4
+2015-11-17 12:35:36,363  INFO [com.hybrid.dao.DeptDao] ###selectAllWithEmpsEND
+2015-11-17 12:35:36,363  INFO [com.hybrid.dao.DeptDaoTest] dept size = 4
+2015-11-17 12:35:36,363  INFO [com.hybrid.dao.DeptDao] ###selectByDeptnoSTART
+2015-11-17 12:35:36,364  INFO [com.hybrid.dao.DeptDao] ###selectByDeptnoEND
+2015-11-17 12:35:36,364  INFO [com.hybrid.dao.DeptDao] ###selectByDeptnoWithEmpsSTART
+2015-11-17 12:35:36,367  INFO [com.hybrid.dao.DeptDao] ###selectByDeptnoWithEmpsEND
+2015-11-17 12:39:35,900  INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [spring/beans_oracle.xml]
+2015-11-17 12:39:35,985  INFO [org.springframework.context.support.GenericXmlApplicationContext] Refreshing org.springframework.context.support.GenericXmlApplicationContext@1e6d1014: startup date [Tue Nov 17 12:39:35 KST 2015]; root of context hierarchy
+2015-11-17 12:39:36,441  INFO [com.hybrid.dao.DeptDao] ###selectAll([])START
+2015-11-17 12:39:36,876  INFO [com.hybrid.dao.DeptDao] Dept size = 4
+2015-11-17 12:39:36,876  INFO [com.hybrid.dao.DeptDao] ###selectAll([])END
+2015-11-17 12:39:36,877  INFO [com.hybrid.dao.DeptDaoTest] dept size = 4
+2015-11-17 12:39:36,877  INFO [com.hybrid.dao.DeptDao] ###selectAllWithEmps([])START
+2015-11-17 12:39:36,882  INFO [com.hybrid.dao.DeptDao] Dept size = 4
+2015-11-17 12:39:36,882  INFO [com.hybrid.dao.DeptDao] ###selectAllWithEmps([])END
+2015-11-17 12:39:36,882  INFO [com.hybrid.dao.DeptDaoTest] dept size = 4
+2015-11-17 12:39:36,883  INFO [com.hybrid.dao.DeptDao] ###selectByDeptno([10])START
+2015-11-17 12:39:36,884  INFO [com.hybrid.dao.DeptDao] ###selectByDeptno([10])END
+2015-11-17 12:39:36,884  INFO [com.hybrid.dao.DeptDao] ###selectByDeptnoWithEmps([20])START
+2015-11-17 12:39:36,887  INFO [com.hybrid.dao.DeptDao] ###selectByDeptnoWithEmps([20])END
+2015-11-17 15:08:39,549  INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [spring/beans_oracle.xml]
+2015-11-17 15:08:39,651  INFO [org.springframework.context.support.GenericXmlApplicationContext] Refreshing org.springframework.context.support.GenericXmlApplicationContext@1e6d1014: startup date [Tue Nov 17 15:08:39 KST 2015]; root of context hierarchy
+2015-11-17 15:08:39,882  WARN [org.springframework.context.support.GenericXmlApplicationContext] Exception encountered during context initialization - cancelling refresh attempt
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'oracleDataSource' defined in class path resource [spring/beans_oracle.xml]: Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: Pointcut is not well-formed: expecting 'name pattern cannot finish with .' at character position 40
+execution(public * com.hybrid.service.*.(..))
+                                        ^
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:305) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:301) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:772) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:835) ~[spring-context-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:537) [spring-context-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.context.support.GenericXmlApplicationContext.<init>(GenericXmlApplicationContext.java:70) [spring-context-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at com.hybrid.service.DeptRegisterServiceTest.main(DeptRegisterServiceTest.java:14) [test-classes/:?]
+Caused by: java.lang.IllegalArgumentException: Pointcut is not well-formed: expecting 'name pattern cannot finish with .' at character position 40
+execution(public * com.hybrid.service.*.(..))
+                                        ^
+
+	at org.aspectj.weaver.tools.PointcutParser.resolvePointcutExpression(PointcutParser.java:316) ~[aspectjweaver-1.8.7.jar:1.8.7]
+	at org.aspectj.weaver.tools.PointcutParser.parsePointcutExpression(PointcutParser.java:294) ~[aspectjweaver-1.8.7.jar:1.8.7]
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.buildPointcutExpression(AspectJExpressionPointcut.java:207) ~[spring-aop-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.checkReadyToMatch(AspectJExpressionPointcut.java:193) ~[spring-aop-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.getClassFilter(AspectJExpressionPointcut.java:170) ~[spring-aop-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.aop.support.AopUtils.canApply(AopUtils.java:194) ~[spring-aop-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.aop.support.AopUtils.canApply(AopUtils.java:248) ~[spring-aop-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.aop.support.AopUtils.findAdvisorsThatCanApply(AopUtils.java:280) ~[spring-aop-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findAdvisorsThatCanApply(AbstractAdvisorAutoProxyCreator.java:118) ~[spring-aop-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findEligibleAdvisors(AbstractAdvisorAutoProxyCreator.java:88) ~[spring-aop-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.getAdvicesAndAdvisorsForBean(AbstractAdvisorAutoProxyCreator.java:69) ~[spring-aop-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.wrapIfNecessary(AbstractAutoProxyCreator.java:330) ~[spring-aop-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.postProcessAfterInitialization(AbstractAutoProxyCreator.java:293) ~[spring-aop-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:422) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1583) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	... 10 more
+2015-11-17 15:09:49,871  INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [spring/beans_oracle.xml]
+2015-11-17 15:09:49,951  INFO [org.springframework.context.support.GenericXmlApplicationContext] Refreshing org.springframework.context.support.GenericXmlApplicationContext@1e6d1014: startup date [Tue Nov 17 15:09:49 KST 2015]; root of context hierarchy
+2015-11-17 15:09:50,176  WARN [org.springframework.context.support.GenericXmlApplicationContext] Exception encountered during context initialization - cancelling refresh attempt
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'oracleDataSource' defined in class path resource [spring/beans_oracle.xml]: Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: Pointcut is not well-formed: expecting 'name pattern cannot finish with .' at character position 40
+execution(public * com.hybrid.service.*.(..))
+                                        ^
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:305) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:301) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:772) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:835) ~[spring-context-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:537) [spring-context-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.context.support.GenericXmlApplicationContext.<init>(GenericXmlApplicationContext.java:70) [spring-context-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at com.hybrid.service.DeptRegisterServiceTest.main(DeptRegisterServiceTest.java:14) [test-classes/:?]
+Caused by: java.lang.IllegalArgumentException: Pointcut is not well-formed: expecting 'name pattern cannot finish with .' at character position 40
+execution(public * com.hybrid.service.*.(..))
+                                        ^
+
+	at org.aspectj.weaver.tools.PointcutParser.resolvePointcutExpression(PointcutParser.java:316) ~[aspectjweaver-1.8.7.jar:1.8.7]
+	at org.aspectj.weaver.tools.PointcutParser.parsePointcutExpression(PointcutParser.java:294) ~[aspectjweaver-1.8.7.jar:1.8.7]
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.buildPointcutExpression(AspectJExpressionPointcut.java:207) ~[spring-aop-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.checkReadyToMatch(AspectJExpressionPointcut.java:193) ~[spring-aop-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.getClassFilter(AspectJExpressionPointcut.java:170) ~[spring-aop-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.aop.support.AopUtils.canApply(AopUtils.java:194) ~[spring-aop-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.aop.support.AopUtils.canApply(AopUtils.java:248) ~[spring-aop-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.aop.support.AopUtils.findAdvisorsThatCanApply(AopUtils.java:280) ~[spring-aop-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findAdvisorsThatCanApply(AbstractAdvisorAutoProxyCreator.java:118) ~[spring-aop-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findEligibleAdvisors(AbstractAdvisorAutoProxyCreator.java:88) ~[spring-aop-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.getAdvicesAndAdvisorsForBean(AbstractAdvisorAutoProxyCreator.java:69) ~[spring-aop-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.wrapIfNecessary(AbstractAutoProxyCreator.java:330) ~[spring-aop-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.postProcessAfterInitialization(AbstractAutoProxyCreator.java:293) ~[spring-aop-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:422) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1583) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	... 10 more
+2015-11-17 15:10:11,865  INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [spring/beans_oracle.xml]
+2015-11-17 15:10:11,952  INFO [org.springframework.context.support.GenericXmlApplicationContext] Refreshing org.springframework.context.support.GenericXmlApplicationContext@1e6d1014: startup date [Tue Nov 17 15:10:11 KST 2015]; root of context hierarchy
+2015-11-17 15:10:12,179  WARN [org.springframework.context.support.GenericXmlApplicationContext] Exception encountered during context initialization - cancelling refresh attempt
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'oracleDataSource' defined in class path resource [spring/beans_oracle.xml]: Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: Pointcut is not well-formed: expecting 'name pattern cannot finish with .' at character position 40
+execution(public * com.hybrid.service.*.(..))
+                                        ^
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:305) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:301) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:772) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:835) ~[spring-context-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:537) [spring-context-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.context.support.GenericXmlApplicationContext.<init>(GenericXmlApplicationContext.java:70) [spring-context-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at com.hybrid.dao.DeptDaoTest.main(DeptDaoTest.java:18) [test-classes/:?]
+Caused by: java.lang.IllegalArgumentException: Pointcut is not well-formed: expecting 'name pattern cannot finish with .' at character position 40
+execution(public * com.hybrid.service.*.(..))
+                                        ^
+
+	at org.aspectj.weaver.tools.PointcutParser.resolvePointcutExpression(PointcutParser.java:316) ~[aspectjweaver-1.8.7.jar:1.8.7]
+	at org.aspectj.weaver.tools.PointcutParser.parsePointcutExpression(PointcutParser.java:294) ~[aspectjweaver-1.8.7.jar:1.8.7]
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.buildPointcutExpression(AspectJExpressionPointcut.java:207) ~[spring-aop-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.checkReadyToMatch(AspectJExpressionPointcut.java:193) ~[spring-aop-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.getClassFilter(AspectJExpressionPointcut.java:170) ~[spring-aop-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.aop.support.AopUtils.canApply(AopUtils.java:194) ~[spring-aop-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.aop.support.AopUtils.canApply(AopUtils.java:248) ~[spring-aop-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.aop.support.AopUtils.findAdvisorsThatCanApply(AopUtils.java:280) ~[spring-aop-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findAdvisorsThatCanApply(AbstractAdvisorAutoProxyCreator.java:118) ~[spring-aop-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findEligibleAdvisors(AbstractAdvisorAutoProxyCreator.java:88) ~[spring-aop-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.getAdvicesAndAdvisorsForBean(AbstractAdvisorAutoProxyCreator.java:69) ~[spring-aop-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.wrapIfNecessary(AbstractAutoProxyCreator.java:330) ~[spring-aop-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.postProcessAfterInitialization(AbstractAutoProxyCreator.java:293) ~[spring-aop-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:422) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1583) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	... 10 more
+2015-11-17 15:16:27,124  INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [spring/beans_oracle.xml]
+2015-11-17 15:16:27,208  INFO [org.springframework.context.support.GenericXmlApplicationContext] Refreshing org.springframework.context.support.GenericXmlApplicationContext@1e6d1014: startup date [Tue Nov 17 15:16:27 KST 2015]; root of context hierarchy
+2015-11-17 15:16:27,436  WARN [org.springframework.context.support.GenericXmlApplicationContext] Exception encountered during context initialization - cancelling refresh attempt
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'oracleDataSource' defined in class path resource [spring/beans_oracle.xml]: Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: Pointcut is not well-formed: expecting 'name pattern cannot finish with .' at character position 40
+execution(public * com.hybrid.service.*.(..))
+                                        ^
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:305) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:301) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:772) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:835) ~[spring-context-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:537) [spring-context-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.context.support.GenericXmlApplicationContext.<init>(GenericXmlApplicationContext.java:70) [spring-context-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at com.hybrid.dao.DeptDaoTest.main(DeptDaoTest.java:18) [test-classes/:?]
+Caused by: java.lang.IllegalArgumentException: Pointcut is not well-formed: expecting 'name pattern cannot finish with .' at character position 40
+execution(public * com.hybrid.service.*.(..))
+                                        ^
+
+	at org.aspectj.weaver.tools.PointcutParser.resolvePointcutExpression(PointcutParser.java:316) ~[aspectjweaver-1.8.7.jar:1.8.7]
+	at org.aspectj.weaver.tools.PointcutParser.parsePointcutExpression(PointcutParser.java:294) ~[aspectjweaver-1.8.7.jar:1.8.7]
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.buildPointcutExpression(AspectJExpressionPointcut.java:207) ~[spring-aop-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.checkReadyToMatch(AspectJExpressionPointcut.java:193) ~[spring-aop-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.getClassFilter(AspectJExpressionPointcut.java:170) ~[spring-aop-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.aop.support.AopUtils.canApply(AopUtils.java:194) ~[spring-aop-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.aop.support.AopUtils.canApply(AopUtils.java:248) ~[spring-aop-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.aop.support.AopUtils.findAdvisorsThatCanApply(AopUtils.java:280) ~[spring-aop-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findAdvisorsThatCanApply(AbstractAdvisorAutoProxyCreator.java:118) ~[spring-aop-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findEligibleAdvisors(AbstractAdvisorAutoProxyCreator.java:88) ~[spring-aop-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.getAdvicesAndAdvisorsForBean(AbstractAdvisorAutoProxyCreator.java:69) ~[spring-aop-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.wrapIfNecessary(AbstractAutoProxyCreator.java:330) ~[spring-aop-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.postProcessAfterInitialization(AbstractAutoProxyCreator.java:293) ~[spring-aop-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:422) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1583) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	... 10 more
+2015-11-17 15:16:56,867  INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [spring/beans_oracle.xml]
+2015-11-17 15:16:56,950  INFO [org.springframework.context.support.GenericXmlApplicationContext] Refreshing org.springframework.context.support.GenericXmlApplicationContext@1e6d1014: startup date [Tue Nov 17 15:16:56 KST 2015]; root of context hierarchy
+2015-11-17 15:16:57,172  WARN [org.springframework.context.support.GenericXmlApplicationContext] Exception encountered during context initialization - cancelling refresh attempt
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'oracleDataSource' defined in class path resource [spring/beans_oracle.xml]: Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: Pointcut is not well-formed: expecting 'name pattern cannot finish with .' at character position 40
+execution(public * com.hybrid.service.*.(..))
+                                        ^
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:305) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:301) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:772) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:835) ~[spring-context-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:537) [spring-context-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.context.support.GenericXmlApplicationContext.<init>(GenericXmlApplicationContext.java:70) [spring-context-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at com.hybrid.dao.DeptDaoTest.main(DeptDaoTest.java:17) [test-classes/:?]
+Caused by: java.lang.IllegalArgumentException: Pointcut is not well-formed: expecting 'name pattern cannot finish with .' at character position 40
+execution(public * com.hybrid.service.*.(..))
+                                        ^
+
+	at org.aspectj.weaver.tools.PointcutParser.resolvePointcutExpression(PointcutParser.java:316) ~[aspectjweaver-1.8.7.jar:1.8.7]
+	at org.aspectj.weaver.tools.PointcutParser.parsePointcutExpression(PointcutParser.java:294) ~[aspectjweaver-1.8.7.jar:1.8.7]
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.buildPointcutExpression(AspectJExpressionPointcut.java:207) ~[spring-aop-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.checkReadyToMatch(AspectJExpressionPointcut.java:193) ~[spring-aop-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.getClassFilter(AspectJExpressionPointcut.java:170) ~[spring-aop-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.aop.support.AopUtils.canApply(AopUtils.java:194) ~[spring-aop-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.aop.support.AopUtils.canApply(AopUtils.java:248) ~[spring-aop-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.aop.support.AopUtils.findAdvisorsThatCanApply(AopUtils.java:280) ~[spring-aop-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findAdvisorsThatCanApply(AbstractAdvisorAutoProxyCreator.java:118) ~[spring-aop-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findEligibleAdvisors(AbstractAdvisorAutoProxyCreator.java:88) ~[spring-aop-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.getAdvicesAndAdvisorsForBean(AbstractAdvisorAutoProxyCreator.java:69) ~[spring-aop-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.wrapIfNecessary(AbstractAutoProxyCreator.java:330) ~[spring-aop-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.postProcessAfterInitialization(AbstractAutoProxyCreator.java:293) ~[spring-aop-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:422) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1583) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	... 10 more
+2015-11-17 15:18:48,800  INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [spring/beans_oracle.xml]
+2015-11-17 15:18:48,883  INFO [org.springframework.context.support.GenericXmlApplicationContext] Refreshing org.springframework.context.support.GenericXmlApplicationContext@1e6d1014: startup date [Tue Nov 17 15:18:48 KST 2015]; root of context hierarchy
+2015-11-17 15:18:49,101  WARN [org.springframework.context.support.GenericXmlApplicationContext] Exception encountered during context initialization - cancelling refresh attempt
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'oracleDataSource' defined in class path resource [spring/beans_oracle.xml]: Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: Pointcut is not well-formed: expecting 'name pattern cannot finish with .' at character position 40
+execution(public * com.hybrid.service.*.(..))
+                                        ^
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:305) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:301) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:772) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:835) ~[spring-context-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:537) [spring-context-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.context.support.GenericXmlApplicationContext.<init>(GenericXmlApplicationContext.java:70) [spring-context-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at com.hybrid.dao.DeptDaoTest.main(DeptDaoTest.java:16) [test-classes/:?]
+Caused by: java.lang.IllegalArgumentException: Pointcut is not well-formed: expecting 'name pattern cannot finish with .' at character position 40
+execution(public * com.hybrid.service.*.(..))
+                                        ^
+
+	at org.aspectj.weaver.tools.PointcutParser.resolvePointcutExpression(PointcutParser.java:316) ~[aspectjweaver-1.8.7.jar:1.8.7]
+	at org.aspectj.weaver.tools.PointcutParser.parsePointcutExpression(PointcutParser.java:294) ~[aspectjweaver-1.8.7.jar:1.8.7]
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.buildPointcutExpression(AspectJExpressionPointcut.java:207) ~[spring-aop-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.checkReadyToMatch(AspectJExpressionPointcut.java:193) ~[spring-aop-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.getClassFilter(AspectJExpressionPointcut.java:170) ~[spring-aop-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.aop.support.AopUtils.canApply(AopUtils.java:194) ~[spring-aop-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.aop.support.AopUtils.canApply(AopUtils.java:248) ~[spring-aop-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.aop.support.AopUtils.findAdvisorsThatCanApply(AopUtils.java:280) ~[spring-aop-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findAdvisorsThatCanApply(AbstractAdvisorAutoProxyCreator.java:118) ~[spring-aop-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findEligibleAdvisors(AbstractAdvisorAutoProxyCreator.java:88) ~[spring-aop-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.getAdvicesAndAdvisorsForBean(AbstractAdvisorAutoProxyCreator.java:69) ~[spring-aop-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.wrapIfNecessary(AbstractAutoProxyCreator.java:330) ~[spring-aop-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.postProcessAfterInitialization(AbstractAutoProxyCreator.java:293) ~[spring-aop-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:422) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1583) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	... 10 more
+2015-11-17 15:19:07,698  INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [spring/beans_oracle.xml]
+2015-11-17 15:19:07,781  INFO [org.springframework.context.support.GenericXmlApplicationContext] Refreshing org.springframework.context.support.GenericXmlApplicationContext@1e6d1014: startup date [Tue Nov 17 15:19:07 KST 2015]; root of context hierarchy
+2015-11-17 15:19:08,003  WARN [org.springframework.context.support.GenericXmlApplicationContext] Exception encountered during context initialization - cancelling refresh attempt
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'oracleDataSource' defined in class path resource [spring/beans_oracle.xml]: Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: Pointcut is not well-formed: expecting 'name pattern cannot finish with .' at character position 40
+execution(public * com.hybrid.service.*.(..))
+                                        ^
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:305) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:301) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:772) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:835) ~[spring-context-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:537) [spring-context-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.context.support.GenericXmlApplicationContext.<init>(GenericXmlApplicationContext.java:70) [spring-context-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at com.hybrid.dao.DeptDaoTest.main(DeptDaoTest.java:16) [test-classes/:?]
+Caused by: java.lang.IllegalArgumentException: Pointcut is not well-formed: expecting 'name pattern cannot finish with .' at character position 40
+execution(public * com.hybrid.service.*.(..))
+                                        ^
+
+	at org.aspectj.weaver.tools.PointcutParser.resolvePointcutExpression(PointcutParser.java:316) ~[aspectjweaver-1.8.7.jar:1.8.7]
+	at org.aspectj.weaver.tools.PointcutParser.parsePointcutExpression(PointcutParser.java:294) ~[aspectjweaver-1.8.7.jar:1.8.7]
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.buildPointcutExpression(AspectJExpressionPointcut.java:207) ~[spring-aop-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.checkReadyToMatch(AspectJExpressionPointcut.java:193) ~[spring-aop-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.getClassFilter(AspectJExpressionPointcut.java:170) ~[spring-aop-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.aop.support.AopUtils.canApply(AopUtils.java:194) ~[spring-aop-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.aop.support.AopUtils.canApply(AopUtils.java:248) ~[spring-aop-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.aop.support.AopUtils.findAdvisorsThatCanApply(AopUtils.java:280) ~[spring-aop-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findAdvisorsThatCanApply(AbstractAdvisorAutoProxyCreator.java:118) ~[spring-aop-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findEligibleAdvisors(AbstractAdvisorAutoProxyCreator.java:88) ~[spring-aop-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.getAdvicesAndAdvisorsForBean(AbstractAdvisorAutoProxyCreator.java:69) ~[spring-aop-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.wrapIfNecessary(AbstractAutoProxyCreator.java:330) ~[spring-aop-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.postProcessAfterInitialization(AbstractAutoProxyCreator.java:293) ~[spring-aop-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:422) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1583) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	... 10 more
+2015-11-17 15:20:00,424  INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [spring/beans_oracle.xml]
+2015-11-17 15:20:00,509  INFO [org.springframework.context.support.GenericXmlApplicationContext] Refreshing org.springframework.context.support.GenericXmlApplicationContext@1e6d1014: startup date [Tue Nov 17 15:20:00 KST 2015]; root of context hierarchy
+2015-11-17 15:20:00,735  WARN [org.springframework.context.support.GenericXmlApplicationContext] Exception encountered during context initialization - cancelling refresh attempt
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'oracleDataSource' defined in class path resource [spring/beans_oracle.xml]: Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: Pointcut is not well-formed: expecting 'name pattern cannot finish with .' at character position 40
+execution(public * com.hybrid.service.*.(..))
+                                        ^
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:305) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:301) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:772) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:835) ~[spring-context-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:537) [spring-context-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.context.support.GenericXmlApplicationContext.<init>(GenericXmlApplicationContext.java:70) [spring-context-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at com.hybrid.dao.DeptDaoTest.main(DeptDaoTest.java:17) [test-classes/:?]
+Caused by: java.lang.IllegalArgumentException: Pointcut is not well-formed: expecting 'name pattern cannot finish with .' at character position 40
+execution(public * com.hybrid.service.*.(..))
+                                        ^
+
+	at org.aspectj.weaver.tools.PointcutParser.resolvePointcutExpression(PointcutParser.java:316) ~[aspectjweaver-1.8.7.jar:1.8.7]
+	at org.aspectj.weaver.tools.PointcutParser.parsePointcutExpression(PointcutParser.java:294) ~[aspectjweaver-1.8.7.jar:1.8.7]
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.buildPointcutExpression(AspectJExpressionPointcut.java:207) ~[spring-aop-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.checkReadyToMatch(AspectJExpressionPointcut.java:193) ~[spring-aop-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.getClassFilter(AspectJExpressionPointcut.java:170) ~[spring-aop-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.aop.support.AopUtils.canApply(AopUtils.java:194) ~[spring-aop-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.aop.support.AopUtils.canApply(AopUtils.java:248) ~[spring-aop-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.aop.support.AopUtils.findAdvisorsThatCanApply(AopUtils.java:280) ~[spring-aop-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findAdvisorsThatCanApply(AbstractAdvisorAutoProxyCreator.java:118) ~[spring-aop-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findEligibleAdvisors(AbstractAdvisorAutoProxyCreator.java:88) ~[spring-aop-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.getAdvicesAndAdvisorsForBean(AbstractAdvisorAutoProxyCreator.java:69) ~[spring-aop-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.wrapIfNecessary(AbstractAutoProxyCreator.java:330) ~[spring-aop-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.postProcessAfterInitialization(AbstractAutoProxyCreator.java:293) ~[spring-aop-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:422) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1583) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	... 10 more
+2015-11-17 15:22:20,284  INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [spring/beans_oracle.xml]
+2015-11-17 15:22:20,367  INFO [org.springframework.context.support.GenericXmlApplicationContext] Refreshing org.springframework.context.support.GenericXmlApplicationContext@1e6d1014: startup date [Tue Nov 17 15:22:20 KST 2015]; root of context hierarchy
+2015-11-17 15:22:20,834  INFO [com.hybrid.dao.DeptDao] ###selectAll([])START
+2015-11-17 15:22:21,297  INFO [com.hybrid.dao.DeptDao] Dept size = 4
+2015-11-17 15:22:21,297  INFO [com.hybrid.dao.DeptDao] ###selectAll([])END
+2015-11-17 15:22:21,297  INFO [com.hybrid.dao.DeptDaoTest] dept size = 4
+2015-11-17 15:22:21,297  INFO [com.hybrid.dao.DeptDao] ###selectAllWithEmps([])START
+2015-11-17 15:22:21,319  INFO [com.hybrid.dao.DeptDao] Dept size = 4
+2015-11-17 15:22:21,319  INFO [com.hybrid.dao.DeptDao] ###selectAllWithEmps([])END
+2015-11-17 15:22:21,319  INFO [com.hybrid.dao.DeptDaoTest] dept size = 4
+2015-11-17 15:22:21,319  INFO [com.hybrid.dao.DeptDao] ###selectByDeptno([10])START
+2015-11-17 15:22:21,327  INFO [com.hybrid.dao.DeptDao] ###selectByDeptno([10])END
+2015-11-17 15:22:21,327  INFO [com.hybrid.dao.DeptDao] ###selectByDeptnoWithEmps([20])START
+2015-11-17 15:22:21,331  INFO [com.hybrid.dao.DeptDao] ###selectByDeptnoWithEmps([20])END
+2015-11-17 15:22:41,591  INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [spring/beans_oracle.xml]
+2015-11-17 15:22:41,675  INFO [org.springframework.context.support.GenericXmlApplicationContext] Refreshing org.springframework.context.support.GenericXmlApplicationContext@1e6d1014: startup date [Tue Nov 17 15:22:41 KST 2015]; root of context hierarchy
+2015-11-17 15:22:42,144  INFO [com.hybrid.dao.DeptDao] ###selectAll([])START
+2015-11-17 15:22:42,567  INFO [com.hybrid.dao.DeptDao] Dept size = 4
+2015-11-17 15:22:42,568  INFO [com.hybrid.dao.DeptDao] ###selectAll([])END
+2015-11-17 15:22:42,568  INFO [com.hybrid.dao.DeptDaoTest] dept size = 4
+2015-11-17 15:22:42,568  INFO [com.hybrid.dao.DeptDao] ###selectAllWithEmps([])START
+2015-11-17 15:22:42,573  INFO [com.hybrid.dao.DeptDao] Dept size = 4
+2015-11-17 15:22:42,573  INFO [com.hybrid.dao.DeptDao] ###selectAllWithEmps([])END
+2015-11-17 15:22:42,573  INFO [com.hybrid.dao.DeptDaoTest] dept size = 4
+2015-11-17 15:22:42,573  INFO [com.hybrid.dao.DeptDao] ###selectByDeptno([10])START
+2015-11-17 15:22:42,574  INFO [com.hybrid.dao.DeptDao] ###selectByDeptno([10])END
+2015-11-17 15:22:42,575  INFO [com.hybrid.dao.DeptDao] ###selectByDeptnoWithEmps([20])START
+2015-11-17 15:22:42,576  INFO [com.hybrid.dao.DeptDao] ###selectByDeptnoWithEmps([20])END
+2015-11-17 15:41:57,571  INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [spring/beans_oracle.xml]
+2015-11-17 15:41:57,655  INFO [org.springframework.context.support.GenericXmlApplicationContext] Refreshing org.springframework.context.support.GenericXmlApplicationContext@1e6d1014: startup date [Tue Nov 17 15:41:57 KST 2015]; root of context hierarchy
+2015-11-17 15:41:58,169  INFO [com.hybrid.aspect.TransactionAspect] ### before
+2015-11-17 15:41:58,178  INFO [com.hybrid.aspect.TransactionAspect] ### afterReturnning
+2015-11-17 15:41:58,178  INFO [com.hybrid.aspect.TransactionAspect] ### after
+2015-11-17 15:43:19,265  INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [spring/beans_oracle.xml]
+2015-11-17 15:43:19,347  INFO [org.springframework.context.support.GenericXmlApplicationContext] Refreshing org.springframework.context.support.GenericXmlApplicationContext@1e6d1014: startup date [Tue Nov 17 15:43:19 KST 2015]; root of context hierarchy
+2015-11-17 15:43:19,801  INFO [com.hybrid.aspect.TransactionAspect] ### before
+2015-11-17 15:43:19,811  INFO [com.hybrid.aspect.TransactionAspect] ### afterReturnning
+2015-11-17 15:43:19,811  INFO [com.hybrid.aspect.TransactionAspect] ### after
+2015-11-17 16:05:00,041  INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [spring/beans_oracle.xml]
+2015-11-17 16:05:00,126  INFO [org.springframework.context.support.GenericXmlApplicationContext] Refreshing org.springframework.context.support.GenericXmlApplicationContext@1e6d1014: startup date [Tue Nov 17 16:05:00 KST 2015]; root of context hierarchy
+2015-11-17 16:05:00,590  INFO [com.hybrid.aspect.TransactionAspect] ### before
+2015-11-17 16:05:00,599  INFO [com.hybrid.aspect.TransactionAspect] ### afterReturnning
+2015-11-17 16:05:00,599  INFO [com.hybrid.aspect.TransactionAspect] ### after
+2015-11-17 16:08:34,612  INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [spring/beans_oracle.xml]
+2015-11-17 16:08:34,696  INFO [org.springframework.context.support.GenericXmlApplicationContext] Refreshing org.springframework.context.support.GenericXmlApplicationContext@1e6d1014: startup date [Tue Nov 17 16:08:34 KST 2015]; root of context hierarchy
+2015-11-17 16:08:35,158  INFO [com.hybrid.aspect.TransactionAspect] ### before
+2015-11-17 16:08:35,167  INFO [com.hybrid.aspect.TransactionAspect] ### afterThrowing
+2015-11-17 16:08:35,168  INFO [com.hybrid.aspect.TransactionAspect] ### after
+2015-11-17 16:42:51,734  INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [spring/beans_oracle.xml]
+2015-11-17 16:42:51,816  INFO [org.springframework.context.support.GenericXmlApplicationContext] Refreshing org.springframework.context.support.GenericXmlApplicationContext@1e6d1014: startup date [Tue Nov 17 16:42:51 KST 2015]; root of context hierarchy
+2015-11-17 16:42:52,277  INFO [com.hybrid.aspect.TransactionAspect] ### before
+2015-11-17 16:42:52,662  INFO [com.hybrid.dao.DeptDao] ###insert([com.hybrid.model.Dept@3a45c42a])START
+2015-11-17 16:42:52,789  INFO [com.hybrid.dao.DeptDao] ###insert([com.hybrid.model.Dept@3a45c42a])END
+2015-11-17 16:42:52,791  INFO [com.hybrid.aspect.TransactionAspect] ### afterReturnning
+2015-11-17 16:42:52,791  INFO [com.hybrid.aspect.TransactionAspect] ### after
+2015-11-18 11:24:15,111  INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [spring/beans_oracle.xml]
+2015-11-18 11:24:15,216  INFO [org.springframework.context.support.GenericXmlApplicationContext] Refreshing org.springframework.context.support.GenericXmlApplicationContext@1e6d1014: startup date [Wed Nov 18 11:24:15 KST 2015]; root of context hierarchy
+2015-11-18 11:24:15,701  INFO [com.hybrid.aspect.TransactionAspect] ### before
+2015-11-18 11:24:16,073  INFO [com.hybrid.dao.DeptDao] ###insert([com.hybrid.model.Dept@7692cd34])START
+2015-11-18 11:24:16,177  INFO [com.hybrid.dao.DeptDao] ###insert([com.hybrid.model.Dept@7692cd34])END
+2015-11-18 11:24:16,178  INFO [com.hybrid.dao.EmpDao] ###insert([com.hybrid.model.Emp@ec50f54])START
+2015-11-18 11:24:16,184  INFO [com.hybrid.dao.EmpDao] ###insert([com.hybrid.model.Emp@ec50f54])END
+2015-11-18 11:24:16,201  INFO [com.hybrid.aspect.TransactionAspect] ### afterReturnning
+2015-11-18 11:24:16,201  INFO [com.hybrid.aspect.TransactionAspect] ### after
+2015-11-18 11:27:19,892  INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [spring/beans_oracle.xml]
+2015-11-18 11:27:19,976  INFO [org.springframework.context.support.GenericXmlApplicationContext] Refreshing org.springframework.context.support.GenericXmlApplicationContext@1e6d1014: startup date [Wed Nov 18 11:27:19 KST 2015]; root of context hierarchy
+2015-11-18 11:27:20,508  INFO [com.hybrid.aspect.TransactionAspect] ### before
+2015-11-18 11:27:20,868  INFO [com.hybrid.dao.DeptDao] ###insert([com.hybrid.model.Dept@7692cd34])START
+2015-11-18 11:27:20,938  INFO [com.hybrid.dao.DeptDao] ###insert([com.hybrid.model.Dept@7692cd34])END
+2015-11-18 11:27:20,938  INFO [com.hybrid.dao.EmpDao] ###insert([com.hybrid.model.Emp@ec50f54])START
+2015-11-18 11:27:20,982  INFO [com.hybrid.dao.EmpDao] ###insert([com.hybrid.model.Emp@ec50f54])END
+2015-11-18 11:27:20,983  INFO [com.hybrid.aspect.TransactionAspect] ### afterReturnning
+2015-11-18 11:27:20,983  INFO [com.hybrid.aspect.TransactionAspect] ### after
+2015-11-18 11:42:34,422  INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [spring/beans_oracle.xml]
+2015-11-18 11:42:34,505  INFO [org.springframework.context.support.GenericXmlApplicationContext] Refreshing org.springframework.context.support.GenericXmlApplicationContext@1e6d1014: startup date [Wed Nov 18 11:42:34 KST 2015]; root of context hierarchy
+2015-11-18 11:42:34,973  INFO [com.hybrid.aspect.TransactionAspect] ### before
+2015-11-18 11:42:35,317  INFO [com.hybrid.dao.DeptDao] ###insert([com.hybrid.model.Dept@32c0915e])START
+2015-11-18 11:42:35,386  INFO [com.hybrid.dao.DeptDao] ###insert([com.hybrid.model.Dept@32c0915e])END
+2015-11-18 11:42:35,386  INFO [com.hybrid.dao.EmpDao] ###insert([com.hybrid.model.Emp@22d6cac2])START
+2015-11-18 11:42:35,392  INFO [com.hybrid.dao.EmpDao] ###insert([com.hybrid.model.Emp@22d6cac2])END
+2015-11-18 11:42:35,395  INFO [com.hybrid.aspect.TransactionAspect] ### afterReturnning
+2015-11-18 11:42:35,395  INFO [com.hybrid.aspect.TransactionAspect] ### after
+2015-11-18 11:44:53,122  INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [spring/beans_oracle.xml]
+2015-11-18 11:44:53,203  INFO [org.springframework.context.support.GenericXmlApplicationContext] Refreshing org.springframework.context.support.GenericXmlApplicationContext@1e6d1014: startup date [Wed Nov 18 11:44:53 KST 2015]; root of context hierarchy
+2015-11-18 11:44:53,681  INFO [com.hybrid.aspect.TransactionAspect] ### before
+2015-11-18 11:44:54,041  INFO [com.hybrid.dao.DeptDao] ###insert([com.hybrid.model.Dept@32c0915e])START
+2015-11-18 11:44:54,114  INFO [com.hybrid.dao.DeptDao] ###insert([com.hybrid.model.Dept@32c0915e])END
+2015-11-18 11:44:54,114  INFO [com.hybrid.dao.EmpDao] ###insert([com.hybrid.model.Emp@22d6cac2])START
+2015-11-18 11:44:54,122  INFO [com.hybrid.dao.EmpDao] ###insert([com.hybrid.model.Emp@22d6cac2])END
+2015-11-18 11:44:54,123  INFO [com.hybrid.aspect.TransactionAspect] ### afterReturnning
+2015-11-18 11:44:54,123  INFO [com.hybrid.aspect.TransactionAspect] ### after
+2015-11-18 13:32:55,211  INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [spring/beans_oracle.xml]
+2015-11-18 13:32:55,296  INFO [org.springframework.context.support.GenericXmlApplicationContext] Refreshing org.springframework.context.support.GenericXmlApplicationContext@1e6d1014: startup date [Wed Nov 18 13:32:55 KST 2015]; root of context hierarchy
+2015-11-18 13:32:55,833  INFO [com.hybrid.aspect.TransactionAspect] ### before
+2015-11-18 13:32:56,203  INFO [com.hybrid.dao.DeptDao] ###insert([com.hybrid.model.Dept@2e6ee0bc])START
+2015-11-18 13:32:56,332  INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2015-11-18 13:32:56,352  INFO [org.springframework.jdbc.support.SQLErrorCodesFactory] SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase, Hana]
+2015-11-18 13:32:56,357  INFO [com.hybrid.dao.DeptDao] ###insert([com.hybrid.model.Dept@2e6ee0bc])END
+2015-11-18 13:32:56,360  INFO [com.hybrid.aspect.TransactionAspect] ### afterReturnning
+2015-11-18 13:32:56,360  INFO [com.hybrid.aspect.TransactionAspect] ### after
