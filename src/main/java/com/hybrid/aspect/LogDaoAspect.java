@@ -15,26 +15,33 @@ public class LogDaoAspect {
 //	static Log log = LogFactory.getLog(LogDaoAspect.class);
 	
 	@Pointcut("execution(public * com.hybrid.dao.*Dao.*(..))")
-	public void logcut() {
+	public void dao() {
 		
 	}
-	@Before("logcut()")
-	public void before(JoinPoint jp) {
-		Log log = LogFactory.getLog(jp.getTarget().getClass());
-		log.info("###"+jp.getSignature().getName()
-				+"("
-				+ Arrays.toString(jp.getArgs())
-				+")"
-				+"START");
+	
+	@Pointcut("execution(public * com.hybrid.service.*Service.*(..))")
+	public void service() {
+		
 	}
 	
-	@After("logcut()")
+	@Before("dao() || service()")
+	public void before(JoinPoint jp) {
+		Log log = LogFactory.getLog(jp.getTarget().getClass());
+		log.info("### " + jp.getSignature().getName()
+						+ "("
+						+ Arrays.toString(jp.getArgs())
+						+ ")"
+						+ " START");
+	}
+	
+	@After("dao() || service()")
 	public void after(JoinPoint jp) {
 		Log log = LogFactory.getLog(jp.getTarget().getClass());
-		log.info("###"+jp.getSignature().getName()
-				+"("
-				+ Arrays.toString(jp.getArgs())
-				+")"
-				+"END");
+		log.info("### " + jp.getSignature().getName()
+						+ "("
+						+ Arrays.toString(jp.getArgs())
+						+ ")"
+						+ " END");
 	}
+
 }

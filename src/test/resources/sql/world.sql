@@ -6,9 +6,9 @@ drop table member;
 
 create table member (
    id              int AUTO_increment,
-   email               varchar(255),
-   name           varchar(255),
-   password        varchar(255),
+   email          	varchar(255),
+   name           	varchar(255),
+   password   		varchar(255),
    register_date    date,
    constraint pk_id primary key (id)   
 );
@@ -62,5 +62,23 @@ select. ci.id,
      on ci.countrycode = co.code
      where co.code = 'USA'
 
+     
+     
+     
+     
+     
+     
+     
+     
+ select id,
+ 		name,
+ 		countrycode,
+ 		district,
+ 		population
+ 	from city
+ order by countrycode asc, name asc
+  limit 40, 10
+  -- start , length
+  -- from 0
  
  

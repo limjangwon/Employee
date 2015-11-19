@@ -1,6 +1,7 @@
 package com.hybrid.mapper;
 
 import java.util.List;
+
 import com.hybrid.model.Member;
 
 public interface MemberMapper {
@@ -9,5 +10,4 @@ public interface MemberMapper {
 	void insert(Member m);
 	void update(Member m);
 	void delete(Member m);
-	
 }

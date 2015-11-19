@@ -30,11 +30,11 @@ public class City {
 	public void setName(String name) {
 		this.name = name;
 	}
-	public String getCountertCode() {
+	public String getCountrycode() {
 		return countryCode;
 	}
-	public void setCountertCode(String countertCode) {
-		this.countryCode = countertCode;
+	public void setcountrycode(String countrycode) {
+		this.countryCode = countrycode;
 	}
 	public String getDistrict() {
 		return district;

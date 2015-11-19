@@ -1,5 +1,7 @@
 package com.hybrid.aspect;
 
+import javax.sql.DataSource;
+
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.aspectj.lang.ProceedingJoinPoint;
@@ -11,10 +13,19 @@ public class TransactionAspect {
 	
 	static Log log = LogFactory.getLog(TransactionAspect.class);
 	
+	DataSource dataSource;
+	
+	public void setDataSource(DataSource ds ){
+		this.dataSource = ds;
+	}
+	
 	@Around("execution(public * com.hybrid.service.*Service.*(..))")
 	public Object around(ProceedingJoinPoint pjp) throws Throwable {
 		// before
 		log.info("### before");
+		
+		
+		
 		Object rtn=null;
 		try {
 			rtn = pjp.proceed();

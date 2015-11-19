@@ -702,3 +702,830 @@ execution(public * com.hybrid.service.*.(..))
 2015-11-18 13:32:56,357  INFO [com.hybrid.dao.DeptDao] ###insert([com.hybrid.model.Dept@2e6ee0bc])END
 2015-11-18 13:32:56,360  INFO [com.hybrid.aspect.TransactionAspect] ### afterReturnning
 2015-11-18 13:32:56,360  INFO [com.hybrid.aspect.TransactionAspect] ### after
+2015-11-19 11:27:45,526  INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [spring/beans_oracle.xml]
+2015-11-19 11:27:45,827  INFO [org.springframework.context.support.GenericXmlApplicationContext] Refreshing org.springframework.context.support.GenericXmlApplicationContext@1e6d1014: startup date [Thu Nov 19 11:27:45 KST 2015]; root of context hierarchy
+2015-11-19 11:27:46,713  INFO [com.hybrid.aspect.TransactionAspect] ### before
+2015-11-19 11:27:46,724  INFO [com.hybrid.dao.DeptDao] ###delete([com.hybrid.model.Dept@4b213651])START
+2015-11-19 11:27:48,336  INFO [com.hybrid.dao.DeptDao] ###delete([com.hybrid.model.Dept@4b213651])END
+2015-11-19 11:27:48,355  INFO [com.hybrid.aspect.TransactionAspect] ### afterReturnning
+2015-11-19 11:27:48,355  INFO [com.hybrid.aspect.TransactionAspect] ### after
+2015-11-19 11:29:58,071  INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [spring/beans_oracle.xml]
+2015-11-19 11:29:58,155  INFO [org.springframework.context.support.GenericXmlApplicationContext] Refreshing org.springframework.context.support.GenericXmlApplicationContext@1e6d1014: startup date [Thu Nov 19 11:29:58 KST 2015]; root of context hierarchy
+2015-11-19 11:32:29,584  INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [spring/beans_oracle.xml]
+2015-11-19 11:32:29,669  INFO [org.springframework.context.support.GenericXmlApplicationContext] Refreshing org.springframework.context.support.GenericXmlApplicationContext@1e6d1014: startup date [Thu Nov 19 11:32:29 KST 2015]; root of context hierarchy
+2015-11-19 11:32:30,169  INFO [com.hybrid.aspect.TransactionAspect] ### before
+2015-11-19 11:32:30,179  INFO [com.hybrid.dao.DeptDao] ###delete([com.hybrid.model.Dept@4b213651])START
+2015-11-19 11:32:31,061  INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2015-11-19 11:32:31,095  INFO [org.springframework.jdbc.support.SQLErrorCodesFactory] SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase, Hana]
+2015-11-19 11:32:31,102  INFO [com.hybrid.dao.DeptDao] ###delete([com.hybrid.model.Dept@4b213651])END
+2015-11-19 11:32:31,102  INFO [com.hybrid.aspect.TransactionAspect] ### afterThrowing
+2015-11-19 11:32:31,103  INFO [com.hybrid.aspect.TransactionAspect] ### after
+2015-11-19 11:50:48,764  INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [spring/beans_oracle.xml]
+2015-11-19 11:50:48,848  INFO [org.springframework.context.support.GenericXmlApplicationContext] Refreshing org.springframework.context.support.GenericXmlApplicationContext@1e6d1014: startup date [Thu Nov 19 11:50:48 KST 2015]; root of context hierarchy
+2015-11-19 11:50:49,348  INFO [com.hybrid.aspect.TransactionAspect] ### before
+2015-11-19 11:50:49,358  INFO [com.hybrid.dao.EmpDao] ###selectByDeptno([61])START
+2015-11-19 11:50:49,816  INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2015-11-19 11:50:49,835  INFO [org.springframework.jdbc.support.SQLErrorCodesFactory] SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase, Hana]
+2015-11-19 11:50:49,838  INFO [com.hybrid.dao.EmpDao] ###selectByDeptno([61])END
+2015-11-19 11:50:49,839  INFO [com.hybrid.aspect.TransactionAspect] ### afterThrowing
+2015-11-19 11:50:49,839  INFO [com.hybrid.aspect.TransactionAspect] ### after
+2015-11-19 11:51:21,072  INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [spring/beans_oracle.xml]
+2015-11-19 11:51:21,160  INFO [org.springframework.context.support.GenericXmlApplicationContext] Refreshing org.springframework.context.support.GenericXmlApplicationContext@1e6d1014: startup date [Thu Nov 19 11:51:21 KST 2015]; root of context hierarchy
+2015-11-19 11:51:21,651  INFO [com.hybrid.aspect.TransactionAspect] ### before
+2015-11-19 11:51:21,661  INFO [com.hybrid.dao.EmpDao] ###selectByDeptno([61])START
+2015-11-19 11:51:22,155  INFO [com.hybrid.dao.EmpDao] ###selectByDeptno([61])END
+2015-11-19 11:51:22,156  INFO [com.hybrid.dao.EmpDao] ###delete([com.hybrid.model.Emp@16943e88])START
+2015-11-19 11:51:22,172  INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2015-11-19 11:51:22,189  INFO [org.springframework.jdbc.support.SQLErrorCodesFactory] SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase, Hana]
+2015-11-19 11:51:22,191  INFO [com.hybrid.dao.EmpDao] ###delete([com.hybrid.model.Emp@16943e88])END
+2015-11-19 11:51:22,192  INFO [com.hybrid.aspect.TransactionAspect] ### afterThrowing
+2015-11-19 11:51:22,192  INFO [com.hybrid.aspect.TransactionAspect] ### after
+2015-11-19 11:51:35,577  INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [spring/beans_oracle.xml]
+2015-11-19 11:51:35,662  INFO [org.springframework.context.support.GenericXmlApplicationContext] Refreshing org.springframework.context.support.GenericXmlApplicationContext@1e6d1014: startup date [Thu Nov 19 11:51:35 KST 2015]; root of context hierarchy
+2015-11-19 11:51:36,155  INFO [com.hybrid.aspect.TransactionAspect] ### before
+2015-11-19 11:51:36,165  INFO [com.hybrid.dao.EmpDao] ###selectByDeptno([63])START
+2015-11-19 11:51:36,597  INFO [com.hybrid.dao.EmpDao] ###selectByDeptno([63])END
+2015-11-19 11:51:36,598  INFO [com.hybrid.dao.DeptDao] ###delete([com.hybrid.model.Dept@e044b4a])START
+2015-11-19 11:51:36,609  INFO [com.hybrid.dao.DeptDao] ###delete([com.hybrid.model.Dept@e044b4a])END
+2015-11-19 11:51:36,609  INFO [com.hybrid.aspect.TransactionAspect] ### afterReturnning
+2015-11-19 11:51:36,609  INFO [com.hybrid.aspect.TransactionAspect] ### after
+2015-11-19 12:19:32,099  INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [spring/beans_oracle.xml]
+2015-11-19 12:19:32,185  INFO [org.springframework.context.support.GenericXmlApplicationContext] Refreshing org.springframework.context.support.GenericXmlApplicationContext@1e6d1014: startup date [Thu Nov 19 12:19:32 KST 2015]; root of context hierarchy
+2015-11-19 12:19:32,689  INFO [com.hybrid.service.DeptRegisterService] ###regist([com.hybrid.model.Dept@3f67593e])START
+2015-11-19 12:19:32,689  INFO [com.hybrid.aspect.TransactionAspect] ### before
+2015-11-19 12:19:33,053  INFO [com.hybrid.dao.DeptDao] ###insert([com.hybrid.model.Dept@3f67593e])START
+2015-11-19 12:19:33,269  INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2015-11-19 12:19:33,300  INFO [org.springframework.jdbc.support.SQLErrorCodesFactory] SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase, Hana]
+2015-11-19 12:19:33,304  INFO [com.hybrid.dao.DeptDao] ###insert([com.hybrid.model.Dept@3f67593e])END
+2015-11-19 12:19:33,342  INFO [com.hybrid.aspect.TransactionAspect] ### afterReturnning
+2015-11-19 12:19:33,342  INFO [com.hybrid.aspect.TransactionAspect] ### after
+2015-11-19 12:19:33,342  INFO [com.hybrid.service.DeptRegisterService] ###regist([com.hybrid.model.Dept@3f67593e])END
+2015-11-19 12:20:08,540  INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [spring/beans_oracle.xml]
+2015-11-19 12:20:08,626  INFO [org.springframework.context.support.GenericXmlApplicationContext] Refreshing org.springframework.context.support.GenericXmlApplicationContext@1e6d1014: startup date [Thu Nov 19 12:20:08 KST 2015]; root of context hierarchy
+2015-11-19 12:20:09,123  INFO [com.hybrid.service.DeptRegisterService] ###regist([com.hybrid.model.Dept@3f67593e])START
+2015-11-19 12:20:09,123  INFO [com.hybrid.aspect.TransactionAspect] ### before
+2015-11-19 12:20:09,469  INFO [com.hybrid.dao.DeptDao] ###insert([com.hybrid.model.Dept@3f67593e])START
+2015-11-19 12:20:09,550  INFO [com.hybrid.dao.DeptDao] ###insert([com.hybrid.model.Dept@3f67593e])END
+2015-11-19 12:20:09,551  INFO [com.hybrid.dao.EmpDao] ###insert([com.hybrid.model.Emp@1f651cd8])START
+2015-11-19 12:20:09,656  INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2015-11-19 12:20:09,692  INFO [org.springframework.jdbc.support.SQLErrorCodesFactory] SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase, Hana]
+2015-11-19 12:20:09,696  INFO [com.hybrid.dao.EmpDao] ###insert([com.hybrid.model.Emp@1f651cd8])END
+2015-11-19 12:20:09,700  INFO [com.hybrid.aspect.TransactionAspect] ### afterReturnning
+2015-11-19 12:20:09,700  INFO [com.hybrid.aspect.TransactionAspect] ### after
+2015-11-19 12:20:09,700  INFO [com.hybrid.service.DeptRegisterService] ###regist([com.hybrid.model.Dept@3f67593e])END
+2015-11-19 12:20:23,224  INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [spring/beans_oracle.xml]
+2015-11-19 12:20:23,312  INFO [org.springframework.context.support.GenericXmlApplicationContext] Refreshing org.springframework.context.support.GenericXmlApplicationContext@1e6d1014: startup date [Thu Nov 19 12:20:23 KST 2015]; root of context hierarchy
+2015-11-19 12:20:23,827  INFO [com.hybrid.service.DeptUnRegisterService] ###unregist([com.hybrid.model.Dept@3f67593e])START
+2015-11-19 12:20:23,827  INFO [com.hybrid.aspect.TransactionAspect] ### before
+2015-11-19 12:20:23,836  INFO [com.hybrid.dao.EmpDao] ###selectByDeptno([63])START
+2015-11-19 12:20:24,272  INFO [com.hybrid.dao.EmpDao] ###selectByDeptno([63])END
+2015-11-19 12:20:24,272  INFO [com.hybrid.dao.DeptDao] ###delete([com.hybrid.model.Dept@3f67593e])START
+2015-11-19 12:20:24,278  INFO [com.hybrid.dao.DeptDao] ###delete([com.hybrid.model.Dept@3f67593e])END
+2015-11-19 12:20:24,279  INFO [com.hybrid.aspect.TransactionAspect] ### afterReturnning
+2015-11-19 12:20:24,279  INFO [com.hybrid.aspect.TransactionAspect] ### after
+2015-11-19 12:20:24,279  INFO [com.hybrid.service.DeptUnRegisterService] ###unregist([com.hybrid.model.Dept@3f67593e])END
+2015-11-19 12:20:28,663  INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [spring/beans_oracle.xml]
+2015-11-19 12:20:28,747  INFO [org.springframework.context.support.GenericXmlApplicationContext] Refreshing org.springframework.context.support.GenericXmlApplicationContext@1e6d1014: startup date [Thu Nov 19 12:20:28 KST 2015]; root of context hierarchy
+2015-11-19 12:20:29,247  INFO [com.hybrid.service.DeptUnRegisterService] ###unregist([com.hybrid.model.Dept@3f67593e])START
+2015-11-19 12:20:29,247  INFO [com.hybrid.aspect.TransactionAspect] ### before
+2015-11-19 12:20:29,256  INFO [com.hybrid.dao.EmpDao] ###selectByDeptno([62])START
+2015-11-19 12:20:29,682  INFO [com.hybrid.dao.EmpDao] ###selectByDeptno([62])END
+2015-11-19 12:20:29,683  INFO [com.hybrid.dao.DeptDao] ###delete([com.hybrid.model.Dept@3f67593e])START
+2015-11-19 12:20:29,689  INFO [com.hybrid.dao.DeptDao] ###delete([com.hybrid.model.Dept@3f67593e])END
+2015-11-19 12:20:29,689  INFO [com.hybrid.aspect.TransactionAspect] ### afterReturnning
+2015-11-19 12:20:29,689  INFO [com.hybrid.aspect.TransactionAspect] ### after
+2015-11-19 12:20:29,689  INFO [com.hybrid.service.DeptUnRegisterService] ###unregist([com.hybrid.model.Dept@3f67593e])END
+2015-11-19 12:20:44,419  INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [spring/beans_oracle.xml]
+2015-11-19 12:20:44,503  INFO [org.springframework.context.support.GenericXmlApplicationContext] Refreshing org.springframework.context.support.GenericXmlApplicationContext@1e6d1014: startup date [Thu Nov 19 12:20:44 KST 2015]; root of context hierarchy
+2015-11-19 12:20:45,006  INFO [com.hybrid.service.DeptUnRegisterService] ###unregist([com.hybrid.model.Dept@3f67593e])START
+2015-11-19 12:20:45,006  INFO [com.hybrid.aspect.TransactionAspect] ### before
+2015-11-19 12:20:45,015  INFO [com.hybrid.dao.EmpDao] ###selectByDeptno([61])START
+2015-11-19 12:20:45,454  INFO [com.hybrid.dao.EmpDao] ###selectByDeptno([61])END
+2015-11-19 12:20:45,454  INFO [com.hybrid.dao.EmpDao] ###delete([com.hybrid.model.Emp@4604b900])START
+2015-11-19 12:20:45,461  INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2015-11-19 12:20:45,479  INFO [org.springframework.jdbc.support.SQLErrorCodesFactory] SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase, Hana]
+2015-11-19 12:20:45,481  INFO [com.hybrid.dao.EmpDao] ###delete([com.hybrid.model.Emp@4604b900])END
+2015-11-19 12:20:45,482  INFO [com.hybrid.aspect.TransactionAspect] ### afterThrowing
+2015-11-19 12:20:45,482  INFO [com.hybrid.aspect.TransactionAspect] ### after
+2015-11-19 12:20:45,482  INFO [com.hybrid.service.DeptUnRegisterService] ###unregist([com.hybrid.model.Dept@3f67593e])END
+2015-11-19 14:47:54,846  INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [spring/beans_oracle.xml]
+2015-11-19 14:47:55,037  INFO [org.springframework.context.support.GenericXmlApplicationContext] Refreshing org.springframework.context.support.GenericXmlApplicationContext@1e6d1014: startup date [Thu Nov 19 14:47:55 KST 2015]; root of context hierarchy
+2015-11-19 14:47:55,518  INFO [com.hybrid.service.DeptRegisterService] ###########################
+2015-11-19 14:47:55,518  INFO [com.hybrid.service.DeptRegisterService] serDeptDao
+2015-11-19 14:47:55,518  INFO [com.hybrid.service.DeptRegisterService] ###########################
+2015-11-19 14:47:55,541  INFO [com.hybrid.service.DeptUnRegisterService] ###unregist([com.hybrid.model.Dept@3f67593e])START
+2015-11-19 14:47:55,541  INFO [com.hybrid.aspect.TransactionAspect] ### before
+2015-11-19 14:47:55,549  INFO [com.hybrid.dao.EmpDao] ###selectByDeptno([61])START
+2015-11-19 14:47:56,079  INFO [com.hybrid.dao.EmpDao] ###selectByDeptno([61])END
+2015-11-19 14:47:56,079  INFO [com.hybrid.dao.EmpDao] ###delete([com.hybrid.model.Emp@4604b900])START
+2015-11-19 14:47:56,087  INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2015-11-19 14:47:56,104  INFO [org.springframework.jdbc.support.SQLErrorCodesFactory] SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase, Hana]
+2015-11-19 14:47:56,107  INFO [com.hybrid.dao.EmpDao] ###delete([com.hybrid.model.Emp@4604b900])END
+2015-11-19 14:47:56,107  INFO [com.hybrid.aspect.TransactionAspect] ### afterThrowing
+2015-11-19 14:47:56,107  INFO [com.hybrid.aspect.TransactionAspect] ### after
+2015-11-19 14:47:56,107  INFO [com.hybrid.service.DeptUnRegisterService] ###unregist([com.hybrid.model.Dept@3f67593e])END
+2015-11-19 15:55:00,109  INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [spring/beans_oracle.xml]
+2015-11-19 15:55:00,197  INFO [org.springframework.context.support.GenericXmlApplicationContext] Refreshing org.springframework.context.support.GenericXmlApplicationContext@1e6d1014: startup date [Thu Nov 19 15:55:00 KST 2015]; root of context hierarchy
+2015-11-19 15:55:00,690  INFO [com.hybrid.service.DeptUnRegisterService] #############################
+2015-11-19 15:55:00,690  INFO [com.hybrid.service.DeptUnRegisterService] setDeptDao()...
+2015-11-19 15:55:00,690  INFO [com.hybrid.service.DeptUnRegisterService] #############################
+2015-11-19 15:55:00,713  INFO [com.hybrid.service.DeptUnRegisterService] ### unregist([com.hybrid.model.Dept@4ddbbdf8]) START
+2015-11-19 15:55:00,713  INFO [com.hybrid.aspect.TransactionAspect] ### before
+2015-11-19 15:55:00,722  INFO [com.hybrid.dao.EmpDao] ### selectByDeptno([81]) START
+2015-11-19 15:55:01,155  INFO [com.hybrid.dao.EmpDao] ### selectByDeptno([81]) END
+2015-11-19 15:55:01,155  INFO [com.hybrid.dao.DeptDao] ### delete([com.hybrid.model.Dept@4ddbbdf8]) START
+2015-11-19 15:55:01,186  INFO [com.hybrid.dao.DeptDao] ### delete([com.hybrid.model.Dept@4ddbbdf8]) END
+2015-11-19 15:55:01,187  INFO [com.hybrid.aspect.TransactionAspect] ### afterReturnning
+2015-11-19 15:55:01,187  INFO [com.hybrid.aspect.TransactionAspect] ### after
+2015-11-19 15:55:01,187  INFO [com.hybrid.service.DeptUnRegisterService] ### unregist([com.hybrid.model.Dept@4ddbbdf8]) END
+2015-11-19 15:55:01,187  INFO [com.hybrid.service.DeptRegisterService] ### regist([com.hybrid.model.Dept@4ddbbdf8]) START
+2015-11-19 15:55:01,187  INFO [com.hybrid.aspect.TransactionAspect] ### before
+2015-11-19 15:55:01,191  INFO [com.hybrid.dao.DeptDao] ### insert([com.hybrid.model.Dept@4ddbbdf8]) START
+2015-11-19 15:55:01,194  INFO [com.hybrid.dao.DeptDao] ### insert([com.hybrid.model.Dept@4ddbbdf8]) END
+2015-11-19 15:55:01,194  INFO [com.hybrid.dao.EmpDao] ### insert([com.hybrid.model.Emp@1adb7478]) START
+2015-11-19 15:55:01,199  INFO [com.hybrid.dao.EmpDao] ### insert([com.hybrid.model.Emp@1adb7478]) END
+2015-11-19 15:55:01,200  INFO [com.hybrid.dao.EmpDao] ### insert([com.hybrid.model.Emp@3961a41a]) START
+2015-11-19 15:55:01,201  INFO [com.hybrid.dao.EmpDao] ### insert([com.hybrid.model.Emp@3961a41a]) END
+2015-11-19 15:55:01,201  INFO [com.hybrid.dao.EmpDao] ### insert([com.hybrid.model.Emp@5a4ed68f]) START
+2015-11-19 15:55:01,202  INFO [com.hybrid.dao.EmpDao] ### insert([com.hybrid.model.Emp@5a4ed68f]) END
+2015-11-19 15:55:01,202  INFO [com.hybrid.aspect.TransactionAspect] ### afterReturnning
+2015-11-19 15:55:01,202  INFO [com.hybrid.aspect.TransactionAspect] ### after
+2015-11-19 15:55:01,202  INFO [com.hybrid.service.DeptRegisterService] ### regist([com.hybrid.model.Dept@4ddbbdf8]) END
+2015-11-19 16:49:37,942  INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [spring/beans_mysql.xml]
+2015-11-19 16:49:38,009  INFO [org.springframework.context.support.GenericXmlApplicationContext] Refreshing org.springframework.context.support.GenericXmlApplicationContext@1e6d1014: startup date [Thu Nov 19 16:49:38 KST 2015]; root of context hierarchy
+2015-11-19 16:49:38,170 ERROR [org.mybatis.spring.mapper.MapperFactoryBean] Error while adding the mapper 'interface com.hybrid.mapper.CityMapper' to configuration.
+org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 18; columnNumber: 43; 요소 유형 "select"과(와) 연관된 "parameterType" 속성에는 여는 따옴표가 필요합니다.
+	at org.apache.ibatis.parsing.XPathParser.createDocument(XPathParser.java:259) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.parsing.XPathParser.<init>(XPathParser.java:125) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.<init>(XMLMapperBuilder.java:78) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.<init>(XMLMapperBuilder.java:73) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.builder.annotation.MapperAnnotationBuilder.loadXmlResource(MapperAnnotationBuilder.java:166) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.builder.annotation.MapperAnnotationBuilder.parse(MapperAnnotationBuilder.java:118) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.binding.MapperRegistry.addMapper(MapperRegistry.java:72) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.session.Configuration.addMapper(Configuration.java:671) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.mybatis.spring.mapper.MapperFactoryBean.checkDaoConfig(MapperFactoryBean.java:81) [mybatis-spring-1.2.3.jar:1.2.3]
+	at org.springframework.dao.support.DaoSupport.afterPropertiesSet(DaoSupport.java:44) [spring-tx-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1637) [spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1574) [spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545) [spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482) [spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:305) [spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230) [spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:301) [spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196) [spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:753) [spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:835) [spring-context-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:537) [spring-context-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.context.support.GenericXmlApplicationContext.<init>(GenericXmlApplicationContext.java:70) [spring-context-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at com.hybrid.util.paginationTest.main(paginationTest.java:14) [test-classes/:?]
+Caused by: org.xml.sax.SAXParseException: 요소 유형 "select"과(와) 연관된 "parameterType" 속성에는 여는 따옴표가 필요합니다.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:441) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:368) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1437) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.scanAttributeValue(XMLScanner.java:830) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanAttribute(XMLDocumentFragmentScannerImpl.java:1547) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement(XMLDocumentFragmentScannerImpl.java:1319) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2786) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:606) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:510) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:848) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:777) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:243) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:348) ~[?:1.8.0_51]
+	at org.apache.ibatis.parsing.XPathParser.createDocument(XPathParser.java:257) ~[mybatis-3.3.0.jar:3.3.0]
+	... 22 more
+2015-11-19 16:49:38,193  WARN [org.springframework.context.support.GenericXmlApplicationContext] Exception encountered during context initialization - cancelling refresh attempt
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mysqlCityMapper' defined in class path resource [spring/beans_mysql.xml]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 18; columnNumber: 43; 요소 유형 "select"과(와) 연관된 "parameterType" 속성에는 여는 따옴표가 필요합니다.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1578) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:305) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:301) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:753) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:835) ~[spring-context-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:537) [spring-context-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.context.support.GenericXmlApplicationContext.<init>(GenericXmlApplicationContext.java:70) [spring-context-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at com.hybrid.util.paginationTest.main(paginationTest.java:14) [test-classes/:?]
+Caused by: java.lang.IllegalArgumentException: org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 18; columnNumber: 43; 요소 유형 "select"과(와) 연관된 "parameterType" 속성에는 여는 따옴표가 필요합니다.
+	at org.mybatis.spring.mapper.MapperFactoryBean.checkDaoConfig(MapperFactoryBean.java:84) ~[mybatis-spring-1.2.3.jar:1.2.3]
+	at org.springframework.dao.support.DaoSupport.afterPropertiesSet(DaoSupport.java:44) ~[spring-tx-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1637) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1574) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	... 11 more
+Caused by: org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 18; columnNumber: 43; 요소 유형 "select"과(와) 연관된 "parameterType" 속성에는 여는 따옴표가 필요합니다.
+	at org.apache.ibatis.parsing.XPathParser.createDocument(XPathParser.java:259) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.parsing.XPathParser.<init>(XPathParser.java:125) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.<init>(XMLMapperBuilder.java:78) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.<init>(XMLMapperBuilder.java:73) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.builder.annotation.MapperAnnotationBuilder.loadXmlResource(MapperAnnotationBuilder.java:166) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.builder.annotation.MapperAnnotationBuilder.parse(MapperAnnotationBuilder.java:118) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.binding.MapperRegistry.addMapper(MapperRegistry.java:72) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.session.Configuration.addMapper(Configuration.java:671) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.mybatis.spring.mapper.MapperFactoryBean.checkDaoConfig(MapperFactoryBean.java:81) ~[mybatis-spring-1.2.3.jar:1.2.3]
+	at org.springframework.dao.support.DaoSupport.afterPropertiesSet(DaoSupport.java:44) ~[spring-tx-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1637) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1574) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	... 11 more
+Caused by: org.xml.sax.SAXParseException: 요소 유형 "select"과(와) 연관된 "parameterType" 속성에는 여는 따옴표가 필요합니다.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:441) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:368) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1437) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.scanAttributeValue(XMLScanner.java:830) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanAttribute(XMLDocumentFragmentScannerImpl.java:1547) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement(XMLDocumentFragmentScannerImpl.java:1319) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2786) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:606) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:510) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:848) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:777) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:243) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:348) ~[?:1.8.0_51]
+	at org.apache.ibatis.parsing.XPathParser.createDocument(XPathParser.java:257) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.parsing.XPathParser.<init>(XPathParser.java:125) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.<init>(XMLMapperBuilder.java:78) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.<init>(XMLMapperBuilder.java:73) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.builder.annotation.MapperAnnotationBuilder.loadXmlResource(MapperAnnotationBuilder.java:166) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.builder.annotation.MapperAnnotationBuilder.parse(MapperAnnotationBuilder.java:118) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.binding.MapperRegistry.addMapper(MapperRegistry.java:72) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.session.Configuration.addMapper(Configuration.java:671) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.mybatis.spring.mapper.MapperFactoryBean.checkDaoConfig(MapperFactoryBean.java:81) ~[mybatis-spring-1.2.3.jar:1.2.3]
+	at org.springframework.dao.support.DaoSupport.afterPropertiesSet(DaoSupport.java:44) ~[spring-tx-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1637) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1574) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	... 11 more
+2015-11-19 16:49:38,195  WARN [org.springframework.beans.factory.support.DisposableBeanAdapter] Invocation of destroy method 'close' failed on bean with name 'mysqlSqlSession': java.lang.UnsupportedOperationException: Manual close is not allowed over a Spring managed SqlSession
+2015-11-19 16:57:39,156  INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [spring/beans_mysql.xml]
+2015-11-19 16:57:39,223  INFO [org.springframework.context.support.GenericXmlApplicationContext] Refreshing org.springframework.context.support.GenericXmlApplicationContext@1e6d1014: startup date [Thu Nov 19 16:57:39 KST 2015]; root of context hierarchy
+2015-11-19 16:57:39,377 ERROR [org.mybatis.spring.mapper.MapperFactoryBean] Error while adding the mapper 'interface com.hybrid.mapper.CityMapper' to configuration.
+org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 18; columnNumber: 43; 요소 유형 "select"과(와) 연관된 "parameterType" 속성에는 여는 따옴표가 필요합니다.
+	at org.apache.ibatis.parsing.XPathParser.createDocument(XPathParser.java:259) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.parsing.XPathParser.<init>(XPathParser.java:125) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.<init>(XMLMapperBuilder.java:78) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.<init>(XMLMapperBuilder.java:73) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.builder.annotation.MapperAnnotationBuilder.loadXmlResource(MapperAnnotationBuilder.java:166) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.builder.annotation.MapperAnnotationBuilder.parse(MapperAnnotationBuilder.java:118) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.binding.MapperRegistry.addMapper(MapperRegistry.java:72) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.session.Configuration.addMapper(Configuration.java:671) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.mybatis.spring.mapper.MapperFactoryBean.checkDaoConfig(MapperFactoryBean.java:81) [mybatis-spring-1.2.3.jar:1.2.3]
+	at org.springframework.dao.support.DaoSupport.afterPropertiesSet(DaoSupport.java:44) [spring-tx-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1637) [spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1574) [spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545) [spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482) [spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:305) [spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230) [spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:301) [spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196) [spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:753) [spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:835) [spring-context-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:537) [spring-context-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.context.support.GenericXmlApplicationContext.<init>(GenericXmlApplicationContext.java:70) [spring-context-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at com.hybrid.util.paginationTest.main(paginationTest.java:16) [test-classes/:?]
+Caused by: org.xml.sax.SAXParseException: 요소 유형 "select"과(와) 연관된 "parameterType" 속성에는 여는 따옴표가 필요합니다.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:441) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:368) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1437) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.scanAttributeValue(XMLScanner.java:830) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanAttribute(XMLDocumentFragmentScannerImpl.java:1547) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement(XMLDocumentFragmentScannerImpl.java:1319) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2786) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:606) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:510) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:848) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:777) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:243) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:348) ~[?:1.8.0_51]
+	at org.apache.ibatis.parsing.XPathParser.createDocument(XPathParser.java:257) ~[mybatis-3.3.0.jar:3.3.0]
+	... 22 more
+2015-11-19 16:57:39,381  WARN [org.springframework.context.support.GenericXmlApplicationContext] Exception encountered during context initialization - cancelling refresh attempt
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mysqlCityMapper' defined in class path resource [spring/beans_mysql.xml]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 18; columnNumber: 43; 요소 유형 "select"과(와) 연관된 "parameterType" 속성에는 여는 따옴표가 필요합니다.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1578) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:305) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:301) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:753) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:835) ~[spring-context-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:537) [spring-context-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.context.support.GenericXmlApplicationContext.<init>(GenericXmlApplicationContext.java:70) [spring-context-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at com.hybrid.util.paginationTest.main(paginationTest.java:16) [test-classes/:?]
+Caused by: java.lang.IllegalArgumentException: org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 18; columnNumber: 43; 요소 유형 "select"과(와) 연관된 "parameterType" 속성에는 여는 따옴표가 필요합니다.
+	at org.mybatis.spring.mapper.MapperFactoryBean.checkDaoConfig(MapperFactoryBean.java:84) ~[mybatis-spring-1.2.3.jar:1.2.3]
+	at org.springframework.dao.support.DaoSupport.afterPropertiesSet(DaoSupport.java:44) ~[spring-tx-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1637) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1574) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	... 11 more
+Caused by: org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 18; columnNumber: 43; 요소 유형 "select"과(와) 연관된 "parameterType" 속성에는 여는 따옴표가 필요합니다.
+	at org.apache.ibatis.parsing.XPathParser.createDocument(XPathParser.java:259) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.parsing.XPathParser.<init>(XPathParser.java:125) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.<init>(XMLMapperBuilder.java:78) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.<init>(XMLMapperBuilder.java:73) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.builder.annotation.MapperAnnotationBuilder.loadXmlResource(MapperAnnotationBuilder.java:166) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.builder.annotation.MapperAnnotationBuilder.parse(MapperAnnotationBuilder.java:118) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.binding.MapperRegistry.addMapper(MapperRegistry.java:72) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.session.Configuration.addMapper(Configuration.java:671) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.mybatis.spring.mapper.MapperFactoryBean.checkDaoConfig(MapperFactoryBean.java:81) ~[mybatis-spring-1.2.3.jar:1.2.3]
+	at org.springframework.dao.support.DaoSupport.afterPropertiesSet(DaoSupport.java:44) ~[spring-tx-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1637) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1574) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	... 11 more
+Caused by: org.xml.sax.SAXParseException: 요소 유형 "select"과(와) 연관된 "parameterType" 속성에는 여는 따옴표가 필요합니다.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:441) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:368) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1437) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.scanAttributeValue(XMLScanner.java:830) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanAttribute(XMLDocumentFragmentScannerImpl.java:1547) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement(XMLDocumentFragmentScannerImpl.java:1319) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2786) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:606) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:510) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:848) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:777) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:243) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:348) ~[?:1.8.0_51]
+	at org.apache.ibatis.parsing.XPathParser.createDocument(XPathParser.java:257) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.parsing.XPathParser.<init>(XPathParser.java:125) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.<init>(XMLMapperBuilder.java:78) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.<init>(XMLMapperBuilder.java:73) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.builder.annotation.MapperAnnotationBuilder.loadXmlResource(MapperAnnotationBuilder.java:166) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.builder.annotation.MapperAnnotationBuilder.parse(MapperAnnotationBuilder.java:118) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.binding.MapperRegistry.addMapper(MapperRegistry.java:72) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.session.Configuration.addMapper(Configuration.java:671) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.mybatis.spring.mapper.MapperFactoryBean.checkDaoConfig(MapperFactoryBean.java:81) ~[mybatis-spring-1.2.3.jar:1.2.3]
+	at org.springframework.dao.support.DaoSupport.afterPropertiesSet(DaoSupport.java:44) ~[spring-tx-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1637) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1574) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	... 11 more
+2015-11-19 16:57:39,383  WARN [org.springframework.beans.factory.support.DisposableBeanAdapter] Invocation of destroy method 'close' failed on bean with name 'mysqlSqlSession': java.lang.UnsupportedOperationException: Manual close is not allowed over a Spring managed SqlSession
+2015-11-19 17:01:35,075  INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [spring/beans_mysql.xml]
+2015-11-19 17:01:35,142  INFO [org.springframework.context.support.GenericXmlApplicationContext] Refreshing org.springframework.context.support.GenericXmlApplicationContext@1e6d1014: startup date [Thu Nov 19 17:01:35 KST 2015]; root of context hierarchy
+2015-11-19 17:01:35,329 ERROR [org.mybatis.spring.mapper.MapperFactoryBean] Error while adding the mapper 'interface com.hybrid.mapper.CityMapper' to configuration.
+org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 18; columnNumber: 43; 요소 유형 "select"과(와) 연관된 "parameterType" 속성에는 여는 따옴표가 필요합니다.
+	at org.apache.ibatis.parsing.XPathParser.createDocument(XPathParser.java:259) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.parsing.XPathParser.<init>(XPathParser.java:125) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.<init>(XMLMapperBuilder.java:78) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.<init>(XMLMapperBuilder.java:73) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.builder.annotation.MapperAnnotationBuilder.loadXmlResource(MapperAnnotationBuilder.java:166) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.builder.annotation.MapperAnnotationBuilder.parse(MapperAnnotationBuilder.java:118) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.binding.MapperRegistry.addMapper(MapperRegistry.java:72) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.session.Configuration.addMapper(Configuration.java:671) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.mybatis.spring.mapper.MapperFactoryBean.checkDaoConfig(MapperFactoryBean.java:81) [mybatis-spring-1.2.3.jar:1.2.3]
+	at org.springframework.dao.support.DaoSupport.afterPropertiesSet(DaoSupport.java:44) [spring-tx-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1637) [spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1574) [spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545) [spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482) [spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:305) [spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230) [spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:301) [spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196) [spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:753) [spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:835) [spring-context-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:537) [spring-context-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.context.support.GenericXmlApplicationContext.<init>(GenericXmlApplicationContext.java:70) [spring-context-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at com.hybrid.util.paginationTest.main(paginationTest.java:16) [test-classes/:?]
+Caused by: org.xml.sax.SAXParseException: 요소 유형 "select"과(와) 연관된 "parameterType" 속성에는 여는 따옴표가 필요합니다.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:441) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:368) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1437) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.scanAttributeValue(XMLScanner.java:830) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanAttribute(XMLDocumentFragmentScannerImpl.java:1547) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement(XMLDocumentFragmentScannerImpl.java:1319) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2786) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:606) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:510) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:848) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:777) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:243) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:348) ~[?:1.8.0_51]
+	at org.apache.ibatis.parsing.XPathParser.createDocument(XPathParser.java:257) ~[mybatis-3.3.0.jar:3.3.0]
+	... 22 more
+2015-11-19 17:01:35,334  WARN [org.springframework.context.support.GenericXmlApplicationContext] Exception encountered during context initialization - cancelling refresh attempt
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mysqlCityMapper' defined in class path resource [spring/beans_mysql.xml]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 18; columnNumber: 43; 요소 유형 "select"과(와) 연관된 "parameterType" 속성에는 여는 따옴표가 필요합니다.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1578) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:305) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:301) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:753) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:835) ~[spring-context-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:537) [spring-context-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.context.support.GenericXmlApplicationContext.<init>(GenericXmlApplicationContext.java:70) [spring-context-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at com.hybrid.util.paginationTest.main(paginationTest.java:16) [test-classes/:?]
+Caused by: java.lang.IllegalArgumentException: org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 18; columnNumber: 43; 요소 유형 "select"과(와) 연관된 "parameterType" 속성에는 여는 따옴표가 필요합니다.
+	at org.mybatis.spring.mapper.MapperFactoryBean.checkDaoConfig(MapperFactoryBean.java:84) ~[mybatis-spring-1.2.3.jar:1.2.3]
+	at org.springframework.dao.support.DaoSupport.afterPropertiesSet(DaoSupport.java:44) ~[spring-tx-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1637) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1574) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	... 11 more
+Caused by: org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 18; columnNumber: 43; 요소 유형 "select"과(와) 연관된 "parameterType" 속성에는 여는 따옴표가 필요합니다.
+	at org.apache.ibatis.parsing.XPathParser.createDocument(XPathParser.java:259) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.parsing.XPathParser.<init>(XPathParser.java:125) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.<init>(XMLMapperBuilder.java:78) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.<init>(XMLMapperBuilder.java:73) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.builder.annotation.MapperAnnotationBuilder.loadXmlResource(MapperAnnotationBuilder.java:166) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.builder.annotation.MapperAnnotationBuilder.parse(MapperAnnotationBuilder.java:118) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.binding.MapperRegistry.addMapper(MapperRegistry.java:72) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.session.Configuration.addMapper(Configuration.java:671) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.mybatis.spring.mapper.MapperFactoryBean.checkDaoConfig(MapperFactoryBean.java:81) ~[mybatis-spring-1.2.3.jar:1.2.3]
+	at org.springframework.dao.support.DaoSupport.afterPropertiesSet(DaoSupport.java:44) ~[spring-tx-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1637) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1574) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	... 11 more
+Caused by: org.xml.sax.SAXParseException: 요소 유형 "select"과(와) 연관된 "parameterType" 속성에는 여는 따옴표가 필요합니다.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:441) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:368) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1437) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.scanAttributeValue(XMLScanner.java:830) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanAttribute(XMLDocumentFragmentScannerImpl.java:1547) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement(XMLDocumentFragmentScannerImpl.java:1319) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2786) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:606) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:510) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:848) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:777) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:243) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:348) ~[?:1.8.0_51]
+	at org.apache.ibatis.parsing.XPathParser.createDocument(XPathParser.java:257) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.parsing.XPathParser.<init>(XPathParser.java:125) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.<init>(XMLMapperBuilder.java:78) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.<init>(XMLMapperBuilder.java:73) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.builder.annotation.MapperAnnotationBuilder.loadXmlResource(MapperAnnotationBuilder.java:166) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.builder.annotation.MapperAnnotationBuilder.parse(MapperAnnotationBuilder.java:118) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.binding.MapperRegistry.addMapper(MapperRegistry.java:72) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.session.Configuration.addMapper(Configuration.java:671) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.mybatis.spring.mapper.MapperFactoryBean.checkDaoConfig(MapperFactoryBean.java:81) ~[mybatis-spring-1.2.3.jar:1.2.3]
+	at org.springframework.dao.support.DaoSupport.afterPropertiesSet(DaoSupport.java:44) ~[spring-tx-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1637) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1574) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	... 11 more
+2015-11-19 17:01:35,335  WARN [org.springframework.beans.factory.support.DisposableBeanAdapter] Invocation of destroy method 'close' failed on bean with name 'mysqlSqlSession': java.lang.UnsupportedOperationException: Manual close is not allowed over a Spring managed SqlSession
+2015-11-19 17:07:52,014  INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [spring/beans_mysql.xml]
+2015-11-19 17:07:52,082  INFO [org.springframework.context.support.GenericXmlApplicationContext] Refreshing org.springframework.context.support.GenericXmlApplicationContext@1e6d1014: startup date [Thu Nov 19 17:07:52 KST 2015]; root of context hierarchy
+2015-11-19 17:07:52,236 ERROR [org.mybatis.spring.mapper.MapperFactoryBean] Error while adding the mapper 'interface com.hybrid.mapper.CityMapper' to configuration.
+org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 18; columnNumber: 43; 요소 유형 "select"과(와) 연관된 "parameterType" 속성에는 여는 따옴표가 필요합니다.
+	at org.apache.ibatis.parsing.XPathParser.createDocument(XPathParser.java:259) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.parsing.XPathParser.<init>(XPathParser.java:125) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.<init>(XMLMapperBuilder.java:78) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.<init>(XMLMapperBuilder.java:73) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.builder.annotation.MapperAnnotationBuilder.loadXmlResource(MapperAnnotationBuilder.java:166) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.builder.annotation.MapperAnnotationBuilder.parse(MapperAnnotationBuilder.java:118) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.binding.MapperRegistry.addMapper(MapperRegistry.java:72) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.session.Configuration.addMapper(Configuration.java:671) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.mybatis.spring.mapper.MapperFactoryBean.checkDaoConfig(MapperFactoryBean.java:81) [mybatis-spring-1.2.3.jar:1.2.3]
+	at org.springframework.dao.support.DaoSupport.afterPropertiesSet(DaoSupport.java:44) [spring-tx-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1637) [spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1574) [spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545) [spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482) [spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:305) [spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230) [spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:301) [spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196) [spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:753) [spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:835) [spring-context-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:537) [spring-context-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.context.support.GenericXmlApplicationContext.<init>(GenericXmlApplicationContext.java:70) [spring-context-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at com.hybrid.util.paginationTest.main(paginationTest.java:16) [test-classes/:?]
+Caused by: org.xml.sax.SAXParseException: 요소 유형 "select"과(와) 연관된 "parameterType" 속성에는 여는 따옴표가 필요합니다.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:441) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:368) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1437) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.scanAttributeValue(XMLScanner.java:830) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanAttribute(XMLDocumentFragmentScannerImpl.java:1547) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement(XMLDocumentFragmentScannerImpl.java:1319) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2786) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:606) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:510) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:848) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:777) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:243) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:348) ~[?:1.8.0_51]
+	at org.apache.ibatis.parsing.XPathParser.createDocument(XPathParser.java:257) ~[mybatis-3.3.0.jar:3.3.0]
+	... 22 more
+2015-11-19 17:07:52,242  WARN [org.springframework.context.support.GenericXmlApplicationContext] Exception encountered during context initialization - cancelling refresh attempt
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mysqlCityMapper' defined in class path resource [spring/beans_mysql.xml]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 18; columnNumber: 43; 요소 유형 "select"과(와) 연관된 "parameterType" 속성에는 여는 따옴표가 필요합니다.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1578) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:305) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:301) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:753) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:835) ~[spring-context-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:537) [spring-context-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.context.support.GenericXmlApplicationContext.<init>(GenericXmlApplicationContext.java:70) [spring-context-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at com.hybrid.util.paginationTest.main(paginationTest.java:16) [test-classes/:?]
+Caused by: java.lang.IllegalArgumentException: org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 18; columnNumber: 43; 요소 유형 "select"과(와) 연관된 "parameterType" 속성에는 여는 따옴표가 필요합니다.
+	at org.mybatis.spring.mapper.MapperFactoryBean.checkDaoConfig(MapperFactoryBean.java:84) ~[mybatis-spring-1.2.3.jar:1.2.3]
+	at org.springframework.dao.support.DaoSupport.afterPropertiesSet(DaoSupport.java:44) ~[spring-tx-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1637) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1574) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	... 11 more
+Caused by: org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 18; columnNumber: 43; 요소 유형 "select"과(와) 연관된 "parameterType" 속성에는 여는 따옴표가 필요합니다.
+	at org.apache.ibatis.parsing.XPathParser.createDocument(XPathParser.java:259) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.parsing.XPathParser.<init>(XPathParser.java:125) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.<init>(XMLMapperBuilder.java:78) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.<init>(XMLMapperBuilder.java:73) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.builder.annotation.MapperAnnotationBuilder.loadXmlResource(MapperAnnotationBuilder.java:166) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.builder.annotation.MapperAnnotationBuilder.parse(MapperAnnotationBuilder.java:118) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.binding.MapperRegistry.addMapper(MapperRegistry.java:72) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.session.Configuration.addMapper(Configuration.java:671) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.mybatis.spring.mapper.MapperFactoryBean.checkDaoConfig(MapperFactoryBean.java:81) ~[mybatis-spring-1.2.3.jar:1.2.3]
+	at org.springframework.dao.support.DaoSupport.afterPropertiesSet(DaoSupport.java:44) ~[spring-tx-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1637) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1574) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	... 11 more
+Caused by: org.xml.sax.SAXParseException: 요소 유형 "select"과(와) 연관된 "parameterType" 속성에는 여는 따옴표가 필요합니다.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:441) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:368) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1437) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.scanAttributeValue(XMLScanner.java:830) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanAttribute(XMLDocumentFragmentScannerImpl.java:1547) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement(XMLDocumentFragmentScannerImpl.java:1319) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2786) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:606) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:510) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:848) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:777) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:243) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:348) ~[?:1.8.0_51]
+	at org.apache.ibatis.parsing.XPathParser.createDocument(XPathParser.java:257) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.parsing.XPathParser.<init>(XPathParser.java:125) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.<init>(XMLMapperBuilder.java:78) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.<init>(XMLMapperBuilder.java:73) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.builder.annotation.MapperAnnotationBuilder.loadXmlResource(MapperAnnotationBuilder.java:166) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.builder.annotation.MapperAnnotationBuilder.parse(MapperAnnotationBuilder.java:118) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.binding.MapperRegistry.addMapper(MapperRegistry.java:72) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.session.Configuration.addMapper(Configuration.java:671) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.mybatis.spring.mapper.MapperFactoryBean.checkDaoConfig(MapperFactoryBean.java:81) ~[mybatis-spring-1.2.3.jar:1.2.3]
+	at org.springframework.dao.support.DaoSupport.afterPropertiesSet(DaoSupport.java:44) ~[spring-tx-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1637) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1574) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	... 11 more
+2015-11-19 17:07:52,246  WARN [org.springframework.beans.factory.support.DisposableBeanAdapter] Invocation of destroy method 'close' failed on bean with name 'mysqlSqlSession': java.lang.UnsupportedOperationException: Manual close is not allowed over a Spring managed SqlSession
+2015-11-19 17:10:00,429  INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [spring/beans_mysql.xml]
+2015-11-19 17:10:00,496  INFO [org.springframework.context.support.GenericXmlApplicationContext] Refreshing org.springframework.context.support.GenericXmlApplicationContext@1e6d1014: startup date [Thu Nov 19 17:10:00 KST 2015]; root of context hierarchy
+2015-11-19 17:10:00,649 ERROR [org.mybatis.spring.mapper.MapperFactoryBean] Error while adding the mapper 'interface com.hybrid.mapper.CityMapper' to configuration.
+org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 18; columnNumber: 43; 요소 유형 "select"과(와) 연관된 "parameterType" 속성에는 여는 따옴표가 필요합니다.
+	at org.apache.ibatis.parsing.XPathParser.createDocument(XPathParser.java:259) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.parsing.XPathParser.<init>(XPathParser.java:125) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.<init>(XMLMapperBuilder.java:78) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.<init>(XMLMapperBuilder.java:73) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.builder.annotation.MapperAnnotationBuilder.loadXmlResource(MapperAnnotationBuilder.java:166) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.builder.annotation.MapperAnnotationBuilder.parse(MapperAnnotationBuilder.java:118) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.binding.MapperRegistry.addMapper(MapperRegistry.java:72) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.session.Configuration.addMapper(Configuration.java:671) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.mybatis.spring.mapper.MapperFactoryBean.checkDaoConfig(MapperFactoryBean.java:81) [mybatis-spring-1.2.3.jar:1.2.3]
+	at org.springframework.dao.support.DaoSupport.afterPropertiesSet(DaoSupport.java:44) [spring-tx-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1637) [spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1574) [spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545) [spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482) [spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:305) [spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230) [spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:301) [spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196) [spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:753) [spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:835) [spring-context-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:537) [spring-context-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.context.support.GenericXmlApplicationContext.<init>(GenericXmlApplicationContext.java:70) [spring-context-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at com.hybrid.util.PaginationTest.main(PaginationTest.java:15) [test-classes/:?]
+Caused by: org.xml.sax.SAXParseException: 요소 유형 "select"과(와) 연관된 "parameterType" 속성에는 여는 따옴표가 필요합니다.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:441) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:368) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1437) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.scanAttributeValue(XMLScanner.java:830) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanAttribute(XMLDocumentFragmentScannerImpl.java:1547) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement(XMLDocumentFragmentScannerImpl.java:1319) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2786) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:606) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:510) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:848) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:777) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:243) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:348) ~[?:1.8.0_51]
+	at org.apache.ibatis.parsing.XPathParser.createDocument(XPathParser.java:257) ~[mybatis-3.3.0.jar:3.3.0]
+	... 22 more
+2015-11-19 17:10:00,656  WARN [org.springframework.context.support.GenericXmlApplicationContext] Exception encountered during context initialization - cancelling refresh attempt
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mysqlCityMapper' defined in class path resource [spring/beans_mysql.xml]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 18; columnNumber: 43; 요소 유형 "select"과(와) 연관된 "parameterType" 속성에는 여는 따옴표가 필요합니다.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1578) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:305) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:301) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:753) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:835) ~[spring-context-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:537) [spring-context-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.context.support.GenericXmlApplicationContext.<init>(GenericXmlApplicationContext.java:70) [spring-context-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at com.hybrid.util.PaginationTest.main(PaginationTest.java:15) [test-classes/:?]
+Caused by: java.lang.IllegalArgumentException: org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 18; columnNumber: 43; 요소 유형 "select"과(와) 연관된 "parameterType" 속성에는 여는 따옴표가 필요합니다.
+	at org.mybatis.spring.mapper.MapperFactoryBean.checkDaoConfig(MapperFactoryBean.java:84) ~[mybatis-spring-1.2.3.jar:1.2.3]
+	at org.springframework.dao.support.DaoSupport.afterPropertiesSet(DaoSupport.java:44) ~[spring-tx-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1637) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1574) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	... 11 more
+Caused by: org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 18; columnNumber: 43; 요소 유형 "select"과(와) 연관된 "parameterType" 속성에는 여는 따옴표가 필요합니다.
+	at org.apache.ibatis.parsing.XPathParser.createDocument(XPathParser.java:259) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.parsing.XPathParser.<init>(XPathParser.java:125) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.<init>(XMLMapperBuilder.java:78) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.<init>(XMLMapperBuilder.java:73) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.builder.annotation.MapperAnnotationBuilder.loadXmlResource(MapperAnnotationBuilder.java:166) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.builder.annotation.MapperAnnotationBuilder.parse(MapperAnnotationBuilder.java:118) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.binding.MapperRegistry.addMapper(MapperRegistry.java:72) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.session.Configuration.addMapper(Configuration.java:671) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.mybatis.spring.mapper.MapperFactoryBean.checkDaoConfig(MapperFactoryBean.java:81) ~[mybatis-spring-1.2.3.jar:1.2.3]
+	at org.springframework.dao.support.DaoSupport.afterPropertiesSet(DaoSupport.java:44) ~[spring-tx-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1637) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1574) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	... 11 more
+Caused by: org.xml.sax.SAXParseException: 요소 유형 "select"과(와) 연관된 "parameterType" 속성에는 여는 따옴표가 필요합니다.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:441) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:368) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1437) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.scanAttributeValue(XMLScanner.java:830) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanAttribute(XMLDocumentFragmentScannerImpl.java:1547) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement(XMLDocumentFragmentScannerImpl.java:1319) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2786) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:606) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:510) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:848) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:777) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:243) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:348) ~[?:1.8.0_51]
+	at org.apache.ibatis.parsing.XPathParser.createDocument(XPathParser.java:257) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.parsing.XPathParser.<init>(XPathParser.java:125) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.<init>(XMLMapperBuilder.java:78) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.<init>(XMLMapperBuilder.java:73) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.builder.annotation.MapperAnnotationBuilder.loadXmlResource(MapperAnnotationBuilder.java:166) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.builder.annotation.MapperAnnotationBuilder.parse(MapperAnnotationBuilder.java:118) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.binding.MapperRegistry.addMapper(MapperRegistry.java:72) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.session.Configuration.addMapper(Configuration.java:671) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.mybatis.spring.mapper.MapperFactoryBean.checkDaoConfig(MapperFactoryBean.java:81) ~[mybatis-spring-1.2.3.jar:1.2.3]
+	at org.springframework.dao.support.DaoSupport.afterPropertiesSet(DaoSupport.java:44) ~[spring-tx-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1637) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1574) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	... 11 more
+2015-11-19 17:10:00,658  WARN [org.springframework.beans.factory.support.DisposableBeanAdapter] Invocation of destroy method 'close' failed on bean with name 'mysqlSqlSession': java.lang.UnsupportedOperationException: Manual close is not allowed over a Spring managed SqlSession
+2015-11-19 17:10:21,749  INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [spring/beans_mysql.xml]
+2015-11-19 17:10:21,817  INFO [org.springframework.context.support.GenericXmlApplicationContext] Refreshing org.springframework.context.support.GenericXmlApplicationContext@1e6d1014: startup date [Thu Nov 19 17:10:21 KST 2015]; root of context hierarchy
+2015-11-19 17:10:21,980 ERROR [org.mybatis.spring.mapper.MapperFactoryBean] Error while adding the mapper 'interface com.hybrid.mapper.CityMapper' to configuration.
+org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 18; columnNumber: 43; 요소 유형 "select"과(와) 연관된 "parameterType" 속성에는 여는 따옴표가 필요합니다.
+	at org.apache.ibatis.parsing.XPathParser.createDocument(XPathParser.java:259) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.parsing.XPathParser.<init>(XPathParser.java:125) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.<init>(XMLMapperBuilder.java:78) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.<init>(XMLMapperBuilder.java:73) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.builder.annotation.MapperAnnotationBuilder.loadXmlResource(MapperAnnotationBuilder.java:166) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.builder.annotation.MapperAnnotationBuilder.parse(MapperAnnotationBuilder.java:118) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.binding.MapperRegistry.addMapper(MapperRegistry.java:72) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.session.Configuration.addMapper(Configuration.java:671) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.mybatis.spring.mapper.MapperFactoryBean.checkDaoConfig(MapperFactoryBean.java:81) [mybatis-spring-1.2.3.jar:1.2.3]
+	at org.springframework.dao.support.DaoSupport.afterPropertiesSet(DaoSupport.java:44) [spring-tx-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1637) [spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1574) [spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545) [spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482) [spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:305) [spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230) [spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:301) [spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196) [spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:753) [spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:835) [spring-context-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:537) [spring-context-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.context.support.GenericXmlApplicationContext.<init>(GenericXmlApplicationContext.java:70) [spring-context-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at com.hybrid.util.PaginationTest.main(PaginationTest.java:15) [test-classes/:?]
+Caused by: org.xml.sax.SAXParseException: 요소 유형 "select"과(와) 연관된 "parameterType" 속성에는 여는 따옴표가 필요합니다.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:441) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:368) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1437) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.scanAttributeValue(XMLScanner.java:830) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanAttribute(XMLDocumentFragmentScannerImpl.java:1547) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement(XMLDocumentFragmentScannerImpl.java:1319) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2786) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:606) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:510) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:848) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:777) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:243) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:348) ~[?:1.8.0_51]
+	at org.apache.ibatis.parsing.XPathParser.createDocument(XPathParser.java:257) ~[mybatis-3.3.0.jar:3.3.0]
+	... 22 more
+2015-11-19 17:10:21,985  WARN [org.springframework.context.support.GenericXmlApplicationContext] Exception encountered during context initialization - cancelling refresh attempt
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mysqlCityMapper' defined in class path resource [spring/beans_mysql.xml]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 18; columnNumber: 43; 요소 유형 "select"과(와) 연관된 "parameterType" 속성에는 여는 따옴표가 필요합니다.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1578) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:305) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:301) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:753) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:835) ~[spring-context-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:537) [spring-context-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.context.support.GenericXmlApplicationContext.<init>(GenericXmlApplicationContext.java:70) [spring-context-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at com.hybrid.util.PaginationTest.main(PaginationTest.java:15) [test-classes/:?]
+Caused by: java.lang.IllegalArgumentException: org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 18; columnNumber: 43; 요소 유형 "select"과(와) 연관된 "parameterType" 속성에는 여는 따옴표가 필요합니다.
+	at org.mybatis.spring.mapper.MapperFactoryBean.checkDaoConfig(MapperFactoryBean.java:84) ~[mybatis-spring-1.2.3.jar:1.2.3]
+	at org.springframework.dao.support.DaoSupport.afterPropertiesSet(DaoSupport.java:44) ~[spring-tx-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1637) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1574) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	... 11 more
+Caused by: org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 18; columnNumber: 43; 요소 유형 "select"과(와) 연관된 "parameterType" 속성에는 여는 따옴표가 필요합니다.
+	at org.apache.ibatis.parsing.XPathParser.createDocument(XPathParser.java:259) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.parsing.XPathParser.<init>(XPathParser.java:125) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.<init>(XMLMapperBuilder.java:78) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.<init>(XMLMapperBuilder.java:73) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.builder.annotation.MapperAnnotationBuilder.loadXmlResource(MapperAnnotationBuilder.java:166) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.builder.annotation.MapperAnnotationBuilder.parse(MapperAnnotationBuilder.java:118) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.binding.MapperRegistry.addMapper(MapperRegistry.java:72) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.session.Configuration.addMapper(Configuration.java:671) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.mybatis.spring.mapper.MapperFactoryBean.checkDaoConfig(MapperFactoryBean.java:81) ~[mybatis-spring-1.2.3.jar:1.2.3]
+	at org.springframework.dao.support.DaoSupport.afterPropertiesSet(DaoSupport.java:44) ~[spring-tx-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1637) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1574) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	... 11 more
+Caused by: org.xml.sax.SAXParseException: 요소 유형 "select"과(와) 연관된 "parameterType" 속성에는 여는 따옴표가 필요합니다.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:441) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:368) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1437) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.scanAttributeValue(XMLScanner.java:830) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanAttribute(XMLDocumentFragmentScannerImpl.java:1547) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement(XMLDocumentFragmentScannerImpl.java:1319) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2786) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:606) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:510) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:848) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:777) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:243) ~[?:1.8.0_51]
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:348) ~[?:1.8.0_51]
+	at org.apache.ibatis.parsing.XPathParser.createDocument(XPathParser.java:257) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.parsing.XPathParser.<init>(XPathParser.java:125) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.<init>(XMLMapperBuilder.java:78) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.<init>(XMLMapperBuilder.java:73) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.builder.annotation.MapperAnnotationBuilder.loadXmlResource(MapperAnnotationBuilder.java:166) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.builder.annotation.MapperAnnotationBuilder.parse(MapperAnnotationBuilder.java:118) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.binding.MapperRegistry.addMapper(MapperRegistry.java:72) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.apache.ibatis.session.Configuration.addMapper(Configuration.java:671) ~[mybatis-3.3.0.jar:3.3.0]
+	at org.mybatis.spring.mapper.MapperFactoryBean.checkDaoConfig(MapperFactoryBean.java:81) ~[mybatis-spring-1.2.3.jar:1.2.3]
+	at org.springframework.dao.support.DaoSupport.afterPropertiesSet(DaoSupport.java:44) ~[spring-tx-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1637) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1574) ~[spring-beans-4.2.2.RELEASE.jar:4.2.2.RELEASE]
+	... 11 more
+2015-11-19 17:10:21,986  WARN [org.springframework.beans.factory.support.DisposableBeanAdapter] Invocation of destroy method 'close' failed on bean with name 'mysqlSqlSession': java.lang.UnsupportedOperationException: Manual close is not allowed over a Spring managed SqlSession
+2015-11-19 17:11:46,143  INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [spring/beans_mysql.xml]
+2015-11-19 17:11:46,209  INFO [org.springframework.context.support.GenericXmlApplicationContext] Refreshing org.springframework.context.support.GenericXmlApplicationContext@1e6d1014: startup date [Thu Nov 19 17:11:46 KST 2015]; root of context hierarchy
+2015-11-19 17:12:23,952  INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [spring/beans_mysql.xml]
+2015-11-19 17:12:24,016  INFO [org.springframework.context.support.GenericXmlApplicationContext] Refreshing org.springframework.context.support.GenericXmlApplicationContext@1e6d1014: startup date [Thu Nov 19 17:12:24 KST 2015]; root of context hierarchy
+2015-11-19 17:12:50,966  INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [spring/beans_mysql.xml]
+2015-11-19 17:12:51,031  INFO [org.springframework.context.support.GenericXmlApplicationContext] Refreshing org.springframework.context.support.GenericXmlApplicationContext@1e6d1014: startup date [Thu Nov 19 17:12:51 KST 2015]; root of context hierarchy
+2015-11-19 17:18:31,427  INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [spring/beans_mysql.xml]
+2015-11-19 17:18:31,492  INFO [org.springframework.context.support.GenericXmlApplicationContext] Refreshing org.springframework.context.support.GenericXmlApplicationContext@1e6d1014: startup date [Thu Nov 19 17:18:31 KST 2015]; root of context hierarchy
+2015-11-19 17:18:57,705  INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [spring/beans_mysql.xml]
+2015-11-19 17:18:57,772  INFO [org.springframework.context.support.GenericXmlApplicationContext] Refreshing org.springframework.context.support.GenericXmlApplicationContext@1e6d1014: startup date [Thu Nov 19 17:18:57 KST 2015]; root of context hierarchy
+2015-11-19 17:21:07,746  INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [spring/beans_mysql.xml]
+2015-11-19 17:21:07,810  INFO [org.springframework.context.support.GenericXmlApplicationContext] Refreshing org.springframework.context.support.GenericXmlApplicationContext@1e6d1014: startup date [Thu Nov 19 17:21:07 KST 2015]; root of context hierarchy
