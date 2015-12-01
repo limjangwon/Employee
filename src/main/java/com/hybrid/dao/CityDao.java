@@ -14,22 +14,22 @@ public class CityDao {
 	}
 	
 	public int selectCount(){
-		return 0;
+		return cityMapper.selectCount();
 	}
 	public List<City> selectAll() {
-		return null;
+		return cityMapper.selectAll();
 	}
 	public List<City> selectPage(Pagination paging){
-		return null;
+		return cityMapper.selectPage(paging);
 	}
 	public List<City> selectByCountryCode(String countryCode){
-		return null;
+		return cityMapper.selectByCountryCode(countryCode);
 	}
 	
 	public int insert(City city){
-		return 0;
+		return cityMapper.insert(city);
 	}
 	public int deleteAll(){
-		return 0;
+		return cityMapper.deleteAll();
 	}
 }

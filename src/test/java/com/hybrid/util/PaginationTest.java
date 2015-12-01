@@ -36,7 +36,7 @@ public class PaginationTest {
 //				City c = list.get(i);
 			for(int i=paging.getFirstItem(); i<=paging.getLastItem(); i++) {
 				City c = list.get(i-paging.getFirstItem());
-				String line = c.getId()+ " " + c.getName()+" " + c.getCountrycode();
+				String line = c.getId()+ " " + c.getName()+" " + c.getCountryCode();
 				System.out.println(line);
 			}
 			
