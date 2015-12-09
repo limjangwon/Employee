@@ -33,6 +33,8 @@ public class CityMapperTest {
             }
             
          });
+         
+         ctx.close();
 
    }
 

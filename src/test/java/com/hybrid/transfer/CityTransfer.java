@@ -2,13 +2,14 @@ package com.hybrid.transfer;
 
 import java.util.List;
 import java.util.function.Consumer;
-import org.apache.commons.logging.LogFactory;
+
 import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
 import org.springframework.context.support.GenericXmlApplicationContext;
+
 import com.hybrid.mapper.CityMapper;
 import com.hybrid.mapper.CityMapperTest;
 import com.hybrid.model.City;
-import com.hybrid.util.Pagination;
 
 public class CityTransfer {
 
@@ -18,7 +19,9 @@ public class CityTransfer {
       
       GenericXmlApplicationContext ctx = null; 
       ctx = new GenericXmlApplicationContext("spring/beans_mysql.xml","spring/beans_oracle.xml");
-      
+      /*
+       * mysql -> oracle
+       */
       CityMapper mysqlCityMapper = (CityMapper) ctx.getBean("mysqlCityMapper");
       CityMapper oracleCityMapper = (CityMapper) ctx.getBean("oracleCityMapper");
       
@@ -39,6 +42,9 @@ public class CityTransfer {
          public void accept(City t) {
             System.out.print(".");
             System.out.flush();
+            if (t.getDistrict().equals("")) {
+            	t.setDistrict(" ");
+            }
             int rtn = oracleCityMapper.insert(t);
             log.info("rtn="+rtn);
             

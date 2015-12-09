@@ -9,9 +9,10 @@ import com.hybrid.model.CityList;
 public class CityListService {
 	CityDao cityDao;
 	
-	public void setCityDao(CityDao dao) {
-		this.cityDao = dao;
+	public void setCityDao(CityDao cityDao) {
+		this.cityDao = cityDao;
 	}
+
 	public CityList getList() {
 		List<City> citys = cityDao.selectAll();
 		CityList rtn = new CityList();

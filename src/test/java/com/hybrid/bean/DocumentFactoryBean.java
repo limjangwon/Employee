@@ -33,13 +33,13 @@ public class DocumentFactoryBean implements FactoryBean<Document>{
 
 	@Override
 	public Class<?> getObjectType() {
-		// TODO Auto-generated method stub
+		
 		return Document.class;
 	}
 
 	@Override
 	public boolean isSingleton() {
-		// TODO Auto-generated method stub
+		
 		return true;
 	}
 

@@ -19,9 +19,9 @@
 			<AppenderRef ref="console"/>
 			<AppenderRef ref="MyFile"/>
 		</Root>
-		<Logger name="org.springFramework.jdbc.datasource" level="DEBUG">
+		<Logger name="org.springFramework.jdbc.datasource" level="INFO">
 		</Logger>
-		<Logger name="com.hybrid.mapper" level="DEBUG">
+		<Logger name="com.hybrid.mapper" level="INFO">
 		</Logger>
 	</Loggers>
  

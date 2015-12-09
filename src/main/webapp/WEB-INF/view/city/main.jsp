@@ -12,15 +12,33 @@
 <title>main.jsp</title>
 
 <!-- URL Resolve -->
-<c:url var="URL_GET_LIST" value="/city/"/>
-<c:url var="URL_GET_PAGE_BASE" value="/city/page/"/>
-<c:url var="URL_GET_ITEM_BASE" value="/city/"/>
+<c:url var="URL_GET_LIST" 					value="/city/"/>
+<c:url var="URL_GET_ITEM_BASE" 				value="/city/"/> <%-- /city/{id} --%>
+<c:url var="URL_GET_PAGE_BASE"				value="/city/page/"/>
+
+<c:url var="URL_POST_LIST_APPEND" 			value="/city/"/>
+<c:url var="URL_POST_ITEM_APPEND" 			value="/city/"/>
+
+<c:url var="URL_PUT_LIST_MODIFY" 			value="/city/"/>
+<c:url var="URL_PUT_ITEM_MODIFY_BASE" 		value="/city/"/>
+
+<c:url var="URL_DELETE_ITEM_DELETE_BASE" 	value="/city/"/>
+
 <script type="text/javascript">
 	
 	var urls = {
 			GET_LIST : 		"${URL_GET_LIST}",
 			GET_PAGE_BASE : "${URL_GET_PAGE_BASE}",
-			GET_ITME_BASE : "${URL_GET_ITME_BASE}"
+			GET_ITME_BASE : "${URL_GET_ITME_BASE}",
+			
+			POST_LIST_APPEND : "${URL_POST_LIST_APPEND}",
+			POST_ITME_APPEND : "${URL_POST_ITME_APPEND}",
+
+			PUT_LIST_APPEND : "${URL_PUT_LIST_MODIFY}",
+			PUT_ITME_APPEND : "${URL_PUT_ITME_MODIFY}",
+			
+			DELETE_LIST_APPEND : "${URL_DELETE_LIST_DELETE_BASE}"
+			
 	};
 	
 	var deps = ['ngRoute',
@@ -31,23 +49,42 @@
 
 	var app = angular.module("employeeApp", deps);
 	
+	app.config(function($routeProvider) {
+		$routeProvider.otherwise({
+			redirectTo: "/list"
+		});
+	})
+	
 	app.constant("URL", urls);
 
 	app.controller("mainController", function($scope, $http, $location) {
 		console.log("mainController...");
-		$location.path("/list");
+// 		$location.path("/list");
 		
+		$scope.staticOrFixed = "navbar-static-top";
+		
+		$scope.setMenuStyle = function(str) {
+			$scope.staticOrFixed = str;
+		};
 	});
 	
 </script>
 
 <c:url var="listController" value="/js/city/listController.js"/>
 <c:url var="detailController" value="/js/city/detailController.js"/>
+<c:url var="appendController" value="/js/city/appendController.js"/>
+<c:url var="modifyController" value="/js/city/modifyController.js"/>
+<c:url var="deleteController" value="/js/city/deleteController.js"/>
 
 <script type="text/javascript" src="${listController}"></script>
 <script type="text/javascript" src="${detailController}"></script>
+<script type="text/javascript" src="${appendController}"></script>
+<script type="text/javascript" src="${modifyController}"></script>
+<script type="text/javascript" src="${deleteController}"></script>
 </head>
 <body data-ng-controller="mainController" class="container">
+      
+      
 <h1>{{title}}</h1>
 <div data-ng-view>
 

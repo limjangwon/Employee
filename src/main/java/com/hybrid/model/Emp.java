@@ -1,7 +1,6 @@
 package com.hybrid.model;
 
 import java.util.Date;
-import com.hybrid.exception.PasswordNotMatchingException;
 
 /*
  * Model object

@@ -77,7 +77,7 @@
 		<td>{{depts[0].deptno}}</td>
 		<td>{{depts[0].dname}}</td>
 		<td>{{depts[0].loc}}</td>
-		<td><a href="#" class="btn btn-primary" data-ng-click="deleteDept($index)">삭제</button></td>
+		<td><a href="#" class="btn btn-primary" data-ng-click="deleteDept($index)">삭제</a>></td>
 	</tr>
 				
 	</tbody>

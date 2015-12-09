@@ -22,6 +22,7 @@ public class DeptUnRegisterServiceTest {
 //		service.unregist(dept);
 		service.unregist(70);
 		
+		ctx.close();
 	}
 
 }

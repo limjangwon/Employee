@@ -80,5 +80,22 @@ select. ci.id,
   limit 40, 10
   -- start , length
   -- from 0
+  
+   insert into city
+		(
+			id,
+			name, 
+			countrycode, 
+			district, 
+			population
+		)
+		values
+		(
+			1,
+			'seoul',
+			'KOR',
+			'Asia'
+			99998
+		)
  
  

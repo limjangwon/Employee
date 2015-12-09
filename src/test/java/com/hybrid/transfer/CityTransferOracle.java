@@ -2,13 +2,14 @@ package com.hybrid.transfer;
 
 import java.util.List;
 import java.util.function.Consumer;
-import org.apache.commons.logging.LogFactory;
+
 import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
 import org.springframework.context.support.GenericXmlApplicationContext;
+
 import com.hybrid.mapper.CityMapper;
 import com.hybrid.mapper.CityMapperTest;
 import com.hybrid.model.City;
-import com.hybrid.util.Pagination;
 
 public class CityTransferOracle {
 

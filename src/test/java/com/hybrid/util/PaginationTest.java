@@ -56,9 +56,9 @@ public class PaginationTest {
 
 			
 			System.out.println();
+			ctx.close();
+			scan.close();
 		}
-		
-		
 		
 	}
 	static void test1() {

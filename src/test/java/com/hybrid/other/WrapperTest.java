@@ -8,6 +8,7 @@ public class WrapperTest {
 
 	public static void main(String[] args) {
 		
+		@SuppressWarnings("unused")
 		List<Map<String, String>> list = new ArrayList<>();
 		
 		for (int i=1; i<10; i++) {
@@ -20,6 +21,7 @@ public class WrapperTest {
 			}
 		}
 	}
+		@SuppressWarnings("unused")
 		static void test1() {
 		// Primitive Type(원시타입)
 		byte b = 20;		//1byte

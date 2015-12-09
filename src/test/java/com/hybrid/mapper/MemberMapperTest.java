@@ -69,7 +69,7 @@ public class MemberMapperTest {
 //		printMembers(dataSource.getConnection());
 		
 		log.info("Program exit...");
-		
+		sqlSession.close();
 	}
 
 

@@ -72,6 +72,7 @@ public class EmpMapperTest {
 //			log.info(msg);
 //		}
 //
+		ctx.close();
 	}
 
 }

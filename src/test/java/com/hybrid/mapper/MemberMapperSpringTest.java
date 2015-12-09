@@ -37,6 +37,7 @@ public class MemberMapperSpringTest {
 			}
 			
 		});
+		ctx.close();
 
 	}
 	static void test1() throws SQLException {
@@ -59,5 +60,6 @@ public class MemberMapperSpringTest {
 		log.info("productName = " + productName);
 		log.info("productVersion = " + productVersion);
 		
+		ctx.close();
 	}
 }
