@@ -1,5 +1,6 @@
 package com.hybrid.service;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -10,7 +11,7 @@ import com.hybrid.model.City;
 public class CityRegisterService {
 
 	CityDao cityDao;
-
+	@Autowired
 	public void setCityDao(CityDao Dao) {
 		this.cityDao = Dao;
 	}

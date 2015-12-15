@@ -2,6 +2,7 @@ package com.hybrid.service;
 
 import java.util.List;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.transaction.annotation.Transactional;
 
 import com.hybrid.dao.CityDao;
@@ -11,7 +12,7 @@ import com.hybrid.util.Pagination;
 
 public class CityPageService {
 	CityDao cityDao;
-	
+	@Autowired
 	public void setCityDao(CityDao dao) {
 		this.cityDao = dao;
 	}
