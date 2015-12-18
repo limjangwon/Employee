@@ -15,7 +15,7 @@ app.controller('listController', function($scope, $http, URL) {
 	console.log("listController...");
 	console.log("URL.GET_PAGE_BASE=" + URL.GET_PAGE_BASE);
 	
-	$scope.$parent.title = "List City View";
+	$scope.$parent.title = "여행";
 	
 	$scope.pageNo = 1;
 	$scope.citys = [];

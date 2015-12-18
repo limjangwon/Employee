@@ -16,7 +16,7 @@ app.controller('appendController', function($scope, $http, $location, URL) {
 	console.log("appendController...");
 	console.log("URL.POST_ITEM_APPEND = " + URL.POST_ITEM_APPEND);
 	
-	$scope.$parent.title = "Append City View";
+	$scope.$parent.title = "도시 입력";
 	
 	$scope.city = {};
 	

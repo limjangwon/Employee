@@ -6,4 +6,3 @@
 	out.print("<sitemesh:write property=\"" + property + "\"/>");
 %>
 
-

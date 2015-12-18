@@ -20,4 +20,19 @@
 
 </bean>
 
+<!-- CityDetailService -->
+<bean id="cityDetailService" class="com.hybrid.service.CityDetailService">
+
+</bean>
+
+<!-- CityModifyService -->
+<bean id="cityModifyService" class="com.hybrid.service.CityModifyService">
+
+</bean>
+
+<!-- CityUnRegisterService -->
+<bean id="cityUnRegisterService" class="com.hybrid.service.CityUnRegisterService">
+
+</bean>
+
 </beans>

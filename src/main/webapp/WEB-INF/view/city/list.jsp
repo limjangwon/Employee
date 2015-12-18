@@ -10,15 +10,31 @@
 </head>
 <body class="container">
 
-	<div class="table-responsive">
-		<ul class="pagination">
-			<li><a href="" data-ng-click="prevClick(paging.firstPage - 1)">Prev</a></li>
-			<li data-ng-repeat="city in citys">
-			<a href="" data-ng-click="pageClick(paging.firstPage + $index)">{{paging.firstPage
-					+ $index}}</a></li>
-			<li><a href="" data-ng-click="prevClick(paging.lastPage + 1)">Next</a></li>
-		</ul>
-		<a href="#/append" class="btn btn-primary">Append</a>
+<!-- 	<div class="table-responsive"> -->
+<!-- 		<ul class="pagination"> -->
+<!-- 			<li><a href="" data-ng-click="prevClick(paging.firstPage - 1)">이전</a></li> -->
+<!-- 			<li data-ng-repeat="city in citys"> -->
+<!-- 			<a href="" data-ng-click="pageClick(paging.firstPage + $index)">{{paging.firstPage -->
+<!-- 					+ $index}}</a></li> -->
+<!-- 			<li><a href="" data-ng-click="prevClick(paging.lastPage + 1)">다음</a></li> -->
+<!-- 		</ul> -->
+
+<div>
+		 <div
+		 			data-uib-pagination
+		 			data-total-items="paging.totalItem" style="width:800px;"
+	                data-ng-model="pageNo"
+	                data-max-size="10" 
+	                data-ng-change="selectPage()"
+	                data-boundary-links="true"
+	                data-first-text="맨처음"
+	                data-last-text="맨끝"
+	                data-previous-text="이전"
+	                data-next-text="다음"
+	                >
+     	 </div>
+		
+		<a href="#/append" class="btn btn-primary">회원가입</a>
 		
 		<table class="table table-striped table-hover">
 			<thead>
@@ -36,7 +52,7 @@
 			<tbody>
 				<tr data-ng-repeat="city in citys">
 					<td>{{$index + 1}}</td>
-					<td><a href="#/detail{{city.id}}">{{city.id}}</a></td>
+					<td><a href="#/detail">{{city.id}}</a></td>
 					<td>{{city.name}}</td>
 					<td>{{city.countryCode}}</td>
 					<td>{{city.district}}</td>
@@ -48,13 +64,13 @@
 		</table>
 	</div>
 
-	<hr>
-	<div class="form-group">
-		<textarea rows="20" class="form-control">
-	{{citys}}
-	{{paging}}
-</textarea>
-	</div>
+<!-- 	<hr> -->
+<!-- 	<div class="form-group"> -->
+<!-- 		<textarea rows="20" class="form-control"> -->
+<!-- 	{{citys}} -->
+<!-- 	{{paging}} -->
+<!-- </textarea> -->
+<!-- 	</div> -->
 
 </body>
 </html>

@@ -34,17 +34,18 @@
 			POST_LIST_APPEND : "${URL_POST_LIST_APPEND}",
 			POST_ITEM_APPEND : "${URL_POST_ITEM_APPEND}",
 
-			PUT_LIST_MODIFY : "${URL_PUT_LIST_MODIFY}",
-			PUT_ITEM_MODIFY : "${URL_PUT_ITEM_MODIFY_BASE}",
+			PUT_LIST_MODIFY 		: "${URL_PUT_LIST_MODIFY}",
+			PUT_ITEM_MODIFY_BASE 	: "${URL_PUT_ITEM_MODIFY_BASE}",
 			
-			DELETE_LIST_APPEND : "${URL_DELETE_LIST_DELETE_BASE}"
+			DELETE_ITEM_DELETE_BASE :	"${URL_DELETE_ITEM_DELETE_BASE}"
 			
 	};
 	
 	var deps = ['ngRoute',
 	            'ngAnimate',
 	            'ngTouch',
-	            'angular-loading-bar'
+	            'angular-loading-bar',
+	            'ui.bootstrap'
 	           ];
 
 	var app = angular.module("employeeApp", deps);
@@ -53,7 +54,7 @@
 		$routeProvider.otherwise({
 			redirectTo: "/list"
 		});
-	})
+	});
 	
 	app.constant("URL", urls);
 
