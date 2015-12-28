@@ -20,21 +20,9 @@
 <!-- 		</ul> -->
 
 <div>
-		 <div
-		 			data-uib-pagination
-		 			data-total-items="paging.totalItem" style="width:800px;"
-	                data-ng-model="pageNo"
-	                data-max-size="10" 
-	                data-ng-change="selectPage()"
-	                data-boundary-links="true"
-	                data-first-text="맨처음"
-	                data-last-text="맨끝"
-	                data-previous-text="이전"
-	                data-next-text="다음"
-	                >
-     	 </div>
+
 		
-		<a href="#/append" class="btn btn-primary">회원가입</a>
+		<a href="#/append" class="btn btn-primary">글쓰기</a>
 		
 		<table class="table table-striped table-hover">
 			<thead>
@@ -52,7 +40,7 @@
 			<tbody>
 				<tr data-ng-repeat="city in citys">
 					<td>{{$index + 1}}</td>
-					<td><a href="#/detail">{{city.id}}</a></td>
+					<td><a href="#/detail/{{city.id}}">{{city.id}}</a></td>
 					<td>{{city.name}}</td>
 					<td>{{city.countryCode}}</td>
 					<td>{{city.district}}</td>
@@ -63,7 +51,22 @@
 			</tbody>
 		</table>
 	</div>
-
+		
+	<div align="center">
+		 <div 	
+		 			data-uib-pagination
+		 			data-total-items="paging.totalItem" style="width:800px;"
+	                data-ng-model="pageNo"
+	                data-max-size="10" 
+	                data-ng-change="selectPage()"
+	                data-boundary-links="true"
+	                data-first-text="맨처음"
+	                data-last-text="맨끝"
+	                data-previous-text="이전"
+	                data-next-text="다음"
+	                >
+     	 </div>
+     </div> 
 <!-- 	<hr> -->
 <!-- 	<div class="form-group"> -->
 <!-- 		<textarea rows="20" class="form-control"> -->

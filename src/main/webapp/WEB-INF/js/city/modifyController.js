@@ -17,7 +17,7 @@ app.controller('modifyController', function($scope, $http, URL, $routeParams, $l
 	console.log("URL.GET_ITEM_BASE = " + URL.GET_ITEM_BASE);
 	console.log("id = " + $routeParams.id);
 
-	$scope.$parent.title = "MODIFY City View";
+	$scope.$parent.title = "정보 수정";
 	
 	var ajax = $http.get(URL.GET_ITEM_BASE + $routeParams.id);
 	ajax.then(function(value) {

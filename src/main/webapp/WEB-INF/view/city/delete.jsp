@@ -8,13 +8,10 @@
 <head>
 <title>delete.jsp</title>
 </head>
+
 <body class="container">
 
 <a class="btn btn-primary" href="#/list">list...</a>
 
 </body>
 </html>
-
-
-
-

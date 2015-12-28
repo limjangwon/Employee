@@ -9,7 +9,10 @@
 <bean id="cityListService" class="com.hybrid.service.CityListService">
 	
 </bean>
+<!-- LoginService -->
+<bean id="LoginService" class="com.hybrid.service.LoginService">
 
+</bean>
 <!-- CityPageService -->
 <bean id="cityPageService" class="com.hybrid.service.CityPageService">
 	

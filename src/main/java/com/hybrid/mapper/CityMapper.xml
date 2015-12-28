@@ -104,7 +104,7 @@
 		)
     </insert>
     
-    <update id="update">
+    <update id="update" parameterType="com.hybrid.model.City">
         update city
         	set name 		= #{name},
         		countryCode = #{countryCode},
@@ -112,7 +112,7 @@
         		population  = #{population}
         	where id = #{id}	
     </update>
-      
+   	
     <delete id="deleteById" parameterType="int">
     	delete from city where id = #{id}    
     </delete>

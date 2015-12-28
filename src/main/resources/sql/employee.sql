@@ -3,7 +3,7 @@
 select * from dept;
 
 select * from emp;
-
+select * from member;
 select *
   from dept d inner join emp e
     on d.deptno = e.deptno
@@ -17,9 +17,9 @@ drop table member;
 
 create table member (
 	id				int,
-	email			varchar(255),
-	name			varchar(255),
-	password 		varchar(255),
+	email			varchar(255) not null,
+	name			varchar(255) not null,
+	password 		varchar(255) not null,
 	register_date	date,
 	constraint pk_id primary key (id)
 );
@@ -34,8 +34,12 @@ create sequence member_id_seq
 insert into member
 (id, email, name, password, register_date)
 values
-(member_id_seq.nextval, 'xxx@yyy', '홍길동', '1234', '2015/11/11')
+(member_id_seq.nextval, 'xxx@yyy', '임장원', '1234', '2015/11/11')
 
+insert into member
+(id, email, name, password, register_date)
+values
+(member_id_seq.nextval, 'xxx@zzz', '임장원', '1234', '2015/12/23')
 -- Read
 select * from member;
 

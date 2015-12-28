@@ -18,5 +18,6 @@ public interface CityMapper {
 	int update(City city);
 	
 	int deleteById(int id);
+	
 	int deleteAll();
 }
